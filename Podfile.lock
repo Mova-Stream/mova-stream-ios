@@ -1,0 +1,54 @@
+PODS:
+  - Alamofire (4.8.1)
+  - CocoaLumberjack (3.8.5):
+    - CocoaLumberjack/Core (= 3.8.5)
+  - CocoaLumberjack/Core (3.8.5)
+  - CRRefresh (1.1.3)
+  - DatePickerDialog (4.0)
+  - ESPullToRefresh (2.9.3)
+  - IQKeyboardManagerSwift (6.3.0)
+  - PagingCollectionViewLayout (0.0.4)
+  - Parchment (3.1.0)
+  - StringStylizer (5.2.1)
+  - SVGKit (3.0.0):
+    - CocoaLumberjack (~> 3.0)
+
+DEPENDENCIES:
+  - Alamofire (= 4.8.1)
+  - CRRefresh (= 1.1.3)
+  - DatePickerDialog (= 4.0)
+  - ESPullToRefresh (= 2.9.3)
+  - IQKeyboardManagerSwift (= 6.3.0)
+  - PagingCollectionViewLayout (= 0.0.4)
+  - Parchment (= 3.1.0)
+  - StringStylizer (= 5.2.1)
+  - SVGKit (= 3.0.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CocoaLumberjack
+    - CRRefresh
+    - DatePickerDialog
+    - ESPullToRefresh
+    - IQKeyboardManagerSwift
+    - PagingCollectionViewLayout
+    - Parchment
+    - StringStylizer
+    - SVGKit
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  CocoaLumberjack: 6a459bc897d6d80bd1b8c78482ec7ad05dffc3f0
+  CRRefresh: 1415d4ae06837fa7bb064c44f2e102f3ef517044
+  DatePickerDialog: ccff2f91ff7a018057a4d72fa5ad6de49c8cb0cd
+  ESPullToRefresh: 0d68daa602b343c81753a1b95e09fd0bfcddfd40
+  IQKeyboardManagerSwift: a8228c257614af98743b4cd8584637025f36358f
+  PagingCollectionViewLayout: a75339d9fe45affc116b6770f37c884a8a5e9cd9
+  Parchment: 6250722ed0456d68f6bae03118eda722a28486f3
+  StringStylizer: 583054ea5827510f6d299142c17595afcfd6cbae
+  SVGKit: 1ad7513f8c74d9652f94ed64ddecda1a23864dea
+
+PODFILE CHECKSUM: a34c95928f4ab7ddfc56402fd98d5b983c745f91
+
+COCOAPODS: 1.16.2

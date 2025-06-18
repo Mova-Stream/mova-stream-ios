@@ -1,0 +1,6 @@
+framework module Pods_MovaStream {
+  umbrella header "Pods-MovaStream-umbrella.h"
+
+  export *
+  module * { export * }
+}
