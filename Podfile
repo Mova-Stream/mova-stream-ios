@@ -15,7 +15,7 @@ def pods
   # pod 'ImageLoader', '~> 0.6.0'
 end
 
-target 'MovaStream' do
+target 'mova-stream-ios' do
     use_frameworks!
   pods
 end

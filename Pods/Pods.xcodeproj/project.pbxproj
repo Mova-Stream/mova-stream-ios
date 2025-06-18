@@ -127,7 +127,6 @@
 		47249F24B3AAD2BC96AD2DA88C09CC7D /* DocumentCSS.h in Headers */ = {isa = PBXBuildFile; fileRef = CE7DAE66EE7E9313EC547C0B3C6EC5A4 /* DocumentCSS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		473791D0B5D540BC1817B8B03BA5C70C /* SVGFitToViewBox.h in Headers */ = {isa = PBXBuildFile; fileRef = FE91EAE051AB0FEB7917934F8DFCF001 /* SVGFitToViewBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		48133100A05F0A2DF0D38F158C70122D /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1741A0462FC108E3A15E9DF59E83BD84 /* SessionManager.swift */; };
-		48876F69F118AA5DB75AE7A102E569B6 /* Pods-MovaStream-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 226BBB9749593788E036E23D1D63465F /* Pods-MovaStream-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		48FB9AE9037399AF781403148C071BDC /* SVGDocument_Mutable.h in Headers */ = {isa = PBXBuildFile; fileRef = FC349943D230DF9538516F48DAA9CF6D /* SVGDocument_Mutable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A5F31DDD141842EA896F73C5EDAD586 /* SVGTextPositioningElement.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2C1D7E493D4AF4F1AE6EABD1DAA1D5 /* SVGTextPositioningElement.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		4B2ABA7B7B8F6F1C06417E7F0706551C /* SVGNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = D3B781DEA3856AF50858141F1839ED8C /* SVGNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -161,7 +160,6 @@
 		56D9484F4A4EE75CA24CD4ECCE6153DC /* CALayerWithClipRender.h in Headers */ = {isa = PBXBuildFile; fileRef = C37F725109540782DC9ADD9A9299B2F4 /* CALayerWithClipRender.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		56FBA084CD6A6013ADA7B4F251FB1E17 /* PageViewManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440ADDAC97A29F92377E009CEB511A6C /* PageViewManagerDelegate.swift */; };
 		5755F7D96073C013DAE12F9F5BF4EB3C /* EntityReference.m in Sources */ = {isa = PBXBuildFile; fileRef = 3880504B247364E41B18C94529B92C5F /* EntityReference.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		57ACFDC79798407CA79A4376CA83D225 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9789CE08C57B07FB7E6BF5BFAFFE316 /* Foundation.framework */; };
 		57FDF6A8C374AFB38D0F920D1521F107 /* CRRefreshComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE94D67F2E25B566967F6E3F367C9C9 /* CRRefreshComponent.swift */; };
 		58F8DFE0205D3F05F6C70BA8FEC9FE86 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FCCD387DA336589F93B9E242493E27CF /* IQKeyboardManager.bundle */; };
 		5919C160992D556E7F1C5AD648BDE2E2 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6468DBDC4FA49EB35290BF9FBB07FD /* IQBarButtonItem.swift */; };
@@ -195,6 +193,7 @@
 		697CF0F9FA0BAEAB9F31968C2FF7E325 /* CALayer+RecursiveClone.m in Sources */ = {isa = PBXBuildFile; fileRef = C290F8C589195C66619A116E2A10094A /* CALayer+RecursiveClone.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		698A08A8F829ED63D9C00D5B63E34270 /* SVGKImage+CGContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A62FDB5E0212840FF735DF623289838 /* SVGKImage+CGContext.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		69BE2F1BAC985132F5393D1EE4E596FB /* SVGImageElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 8991E3A0A174921A44D7A9197EB7AE98 /* SVGImageElement.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		69E52ED8EB4FE6C6CAAEC6483843BD8D /* Pods-mova-stream-ios-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63F1BDD9059A725C1CDFE8CC8DEE8CE5 /* Pods-mova-stream-ios-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6ACEC9E1EC43E6F87573A59688929CE8 /* SVGKParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C06A88969A9CF1D2E5C0FC99C4CA36C2 /* SVGKParser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		6ADB6EA0C87B30C16911148732BCF132 /* SVGKParserStyles.m in Sources */ = {isa = PBXBuildFile; fileRef = CD035999D55541D0B502931CA2A033FF /* SVGKParserStyles.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		6CC3944A85BFE559414B78DF999988A0 /* PagingCellLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6351F9CBA92B588A836D4CAD5DB5F4 /* PagingCellLayoutAttributes.swift */; };
@@ -305,6 +304,7 @@
 		A46CE59103D3CC54BE766C5CB2A74B54 /* SVGKImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E5337C224CF794F34860DF13BF9D9285 /* SVGKImage.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		A4C43AB2A6A61A22D696ED78AC262EBC /* PagingStaticDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42D41A2C5F9F957E66D411BA96B36DF /* PagingStaticDataSource.swift */; };
 		A561153B1B5EB53C42C076E2D101ED0C /* SVGLinearGradientElement.h in Headers */ = {isa = PBXBuildFile; fileRef = B2578CFA24F9B491CC9A2B114D4365F6 /* SVGLinearGradientElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5B98DF242ED388B045376BF63C38543 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9789CE08C57B07FB7E6BF5BFAFFE316 /* Foundation.framework */; };
 		A61AD6243A99E1FF27702827D7A1BD14 /* ProcessingInstruction.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2216792F9FF9E486FF350566C0F22E /* ProcessingInstruction.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		A656341260A6B3AE815395718842F009 /* SVGStyleElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BDE18D43E5AA1066B6994C3F7058CBB /* SVGStyleElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A6B7D5197EA9A98353E9F0772C44B178 /* SVGRectElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E1D6FD21E7E44978A3D3EE96B2CF453 /* SVGRectElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -318,6 +318,7 @@
 		AABF75F8DA77B01A9821BE0BB2661BEF /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E037E4B1C1EC8582864541CF9AEEC38 /* CoreText.framework */; };
 		AB54319842F2810A5612C1071674E3BD /* SVGGroupElement.h in Headers */ = {isa = PBXBuildFile; fileRef = F981BD1530E680BF4FC3C62712B14272 /* SVGGroupElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC2487E44F996636FDAD00C6B83251B0 /* SVGHelperUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = AF29FC1C7A335D32029F078C1124063A /* SVGHelperUtilities.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AC49406DE577898DF58046087CCA0B5B /* Pods-mova-stream-ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE142E859D3294F114DCA0706F8E571 /* Pods-mova-stream-ios-dummy.m */; };
 		ACCD59D070287FA48785672A75B613E3 /* SVGEllipseElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE06C71653ED4D3D5780B5AA577218C /* SVGEllipseElement.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		ACCEC9006CC280E2101126C7CF12D293 /* Comment.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E9E52F584D2225A1496A538AFFEB7E /* Comment.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ACD54EB957BA177CB48649D8FB62D213 /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EC5EE6B74D898875ADECE9ADD5147CF /* DDLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -450,7 +451,6 @@
 		F8DB6685D11D73F06CC0DB24DC47174C /* CSSStyleDeclaration.h in Headers */ = {isa = PBXBuildFile; fileRef = E53C0CB8027A6AD042106F60EE0B51C1 /* CSSStyleDeclaration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F94E511E7FE98F0E293D2A97146882E9 /* SVGDefsElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 52434A967FFC36759DA2A2099C4902E9 /* SVGDefsElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F97F2A56734DB7A73405BC847F476A3E /* PagingMenuPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9056402373B6CCBEE88E978CB43CAC8A /* PagingMenuPosition.swift */; };
-		FA8B00C4FFF496B6F7D343C9C7F815A2 /* Pods-MovaStream-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D9FF15B73D89D729DD72A43BF57E20 /* Pods-MovaStream-dummy.m */; };
 		FA8C0E50D05C02C1231774F60781CB48 /* SVGClipPathElement.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB70488A946F0539B8372BE4414ECED /* SVGClipPathElement.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		FCA79FDD5CFC843F730B510BEB7E18B1 /* PagingCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F95CF2041F3CF0B902713313C28B44 /* PagingCollectionViewLayout.swift */; };
 		FCD6AF16EF69E2571DF33B40BE898CFA /* PageViewManagerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30700E1417FAEB73B72F87AFD94CAF4A /* PageViewManagerDataSource.swift */; };
@@ -462,47 +462,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		01AB19D792FB8EC14690067E5E4EB3C8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B490E7485944099E16C9CBD79119D1D4;
-			remoteInfo = IQKeyboardManagerSwift;
-		};
-		0A8063CD83CE7A1DC4330E9DCB22D7C3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 88865108CFDFA8DACA4098B26884B841;
-			remoteInfo = CRRefresh;
-		};
-		19964B5BFC8416946D47B3992217E008 /* PBXContainerItemProxy */ = {
+		36C63FA89D2F56E4170803DE496B243A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 420F41DB8ACE6B60ADC74DEB0787160D;
 			remoteInfo = StringStylizer;
-		};
-		1FDBA69C997EE6AC23E9C01F815D0894 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B537A1FD6BC67DF7FE8C2B34E5CE6F19;
-			remoteInfo = SVGKit;
-		};
-		35924C551E1EDA0DDAC9A93968119D91 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
-			remoteInfo = Alamofire;
-		};
-		4B037F3650B157178F52319853582DAA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 977B67E6ADDDC9C183DE6B6E33F17FCC;
-			remoteInfo = DatePickerDialog;
 		};
 		669379CE93A977B83202EC0F583AC606 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -518,33 +483,61 @@
 			remoteGlobalIDString = E95654B155D25890BE8E26081FCA8265;
 			remoteInfo = CocoaLumberjack;
 		};
-		7E64EB69A253277A0BA2A2312DC0C02B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 18184DEEDE7075D999122505659B55E9;
-			remoteInfo = Parchment;
-		};
-		92F50965FD9F9CE2134326EE70F0483D /* PBXContainerItemProxy */ = {
+		99ED80D0B45ADFCA8C6B920EDCCAAAA9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C6713CE2EAC37D5019C466B1104A3CAC;
 			remoteInfo = ESPullToRefresh;
 		};
-		B5E5431FF5961041E058D44FC85CF55A /* PBXContainerItemProxy */ = {
+		A6D6C978497998B33ADDDECDA2681DB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 977B67E6ADDDC9C183DE6B6E33F17FCC;
+			remoteInfo = DatePickerDialog;
+		};
+		A7D0663D64936DAA144827851C0256C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B537A1FD6BC67DF7FE8C2B34E5CE6F19;
+			remoteInfo = SVGKit;
+		};
+		A7E207B8F6B21AA60D895F948D61B60C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88865108CFDFA8DACA4098B26884B841;
+			remoteInfo = CRRefresh;
+		};
+		BE08F0BE49E817705843C645D784312D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 821DAE73BAD04E30C664D9BD78CC814B;
 			remoteInfo = PagingCollectionViewLayout;
 		};
-		CE8AB14453073247B40D5F284ED289A2 /* PBXContainerItemProxy */ = {
+		C9DF910066310A2AC87A990FCBCEC0B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B490E7485944099E16C9CBD79119D1D4;
+			remoteInfo = IQKeyboardManagerSwift;
+		};
+		CD2C009AE744D8A7E26DF28CEC7469AB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E95654B155D25890BE8E26081FCA8265;
 			remoteInfo = CocoaLumberjack;
+		};
+		DF24DFFDED83D224CA71E04927353DAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18184DEEDE7075D999122505659B55E9;
+			remoteInfo = Parchment;
 		};
 		F120D48DD3FAFEAFF57EA60DD35FFDC1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -552,6 +545,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 276021C4482165D46E0CBBEFB822FE95;
 			remoteInfo = "CocoaLumberjack-CocoaLumberjackPrivacy";
+		};
+		F1903D2A540D3CA83ED350D2DD2F0EF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -562,7 +562,6 @@
 		0444815D988283C321E7E52BBC422ADA /* SVGUseElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGUseElement.m; path = "Source/DOM classes/SVG-DOM/SVGUseElement.m"; sourceTree = "<group>"; };
 		0444C313E9B8EA100EE1E62975CD8540 /* SVGKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVGKit-prefix.pch"; sourceTree = "<group>"; };
 		0565C274F942D7B26050AF9191F53A2E /* SVGElementInstance_Mutable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGElementInstance_Mutable.h; path = "Source/DOM classes/SVG-DOM/SVGElementInstance_Mutable.h"; sourceTree = "<group>"; };
-		05D9FF15B73D89D729DD72A43BF57E20 /* Pods-MovaStream-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MovaStream-dummy.m"; sourceTree = "<group>"; };
 		06E830FAE26AA936EBC667991B50B614 /* PageViewControllerDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageViewControllerDataSource.swift; path = Parchment/Protocols/PageViewControllerDataSource.swift; sourceTree = "<group>"; };
 		06E8DFF66498F336BDA6B08250BF195B /* Comment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Comment.m; path = "Source/DOM classes/Core DOM/Comment.m"; sourceTree = "<group>"; };
 		079078689AD5732E3E451A7C54CE3979 /* PagingFiniteDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingFiniteDataSource.swift; path = Parchment/Classes/PagingFiniteDataSource.swift; sourceTree = "<group>"; };
@@ -576,6 +575,7 @@
 		0A2280C4EB4D95DCF658C00117021CE0 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		0A6085F651E73A49FCF3D737D2F99EDA /* Text.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Text.m; path = "Source/DOM classes/Core DOM/Text.m"; sourceTree = "<group>"; };
 		0AD20863623E3A9D2E065344A9BB5F4A /* PagingTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingTransition.swift; path = Parchment/Structs/PagingTransition.swift; sourceTree = "<group>"; };
+		0AE142E859D3294F114DCA0706F8E571 /* Pods-mova-stream-ios-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-mova-stream-ios-dummy.m"; sourceTree = "<group>"; };
 		0C9F11396D797EC4DE048032569A1978 /* SVGKSourceString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGKSourceString.m; path = Source/Sources/SVGKSourceString.m; sourceTree = "<group>"; };
 		0CF69A184DE5C1DAA7EDAC46172E54F7 /* SVGRectElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGRectElement.m; path = "Source/DOM classes/Unported or Partial DOM/SVGRectElement.m"; sourceTree = "<group>"; };
 		0D1EF0ED5B4ED34AE733FC1689CEE719 /* PagingViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingViewControllerDelegate.swift; path = Parchment/Protocols/PagingViewControllerDelegate.swift; sourceTree = "<group>"; };
@@ -616,7 +616,7 @@
 		201DD62EBB253B1298A9CF5D90F592F2 /* CocoaLumberjack-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CocoaLumberjack-Info.plist"; sourceTree = "<group>"; };
 		2090937AEF4C10C548BBEFC36F9A2758 /* SVGKSourceURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKSourceURL.h; path = Source/Sources/SVGKSourceURL.h; sourceTree = "<group>"; };
 		2092518354939340108D411CAF33A710 /* CocoaLumberjack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjack-prefix.pch"; sourceTree = "<group>"; };
-		226BBB9749593788E036E23D1D63465F /* Pods-MovaStream-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MovaStream-umbrella.h"; sourceTree = "<group>"; };
+		20D296491F3C48A4EBE3415CBDF031D7 /* Pods-mova-stream-ios.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-mova-stream-ios.modulemap"; sourceTree = "<group>"; };
 		23C49630EE70942248D8B7656C67B374 /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDContextFilterLogFormatter.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
 		23DCBA8949E41E525A3F0893BC3B2A2C /* ResourceBundle-ESPullToRefresh-ESPullToRefresh-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ESPullToRefresh-ESPullToRefresh-Info.plist"; sourceTree = "<group>"; };
 		23E54AD7CC3C71655B23527A61981357 /* CRRefresh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CRRefresh.debug.xcconfig; sourceTree = "<group>"; };
@@ -635,7 +635,6 @@
 		286B6F242633C80110627BD7A6EC3CEA /* CDATASection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CDATASection.m; path = "Source/DOM classes/Core DOM/CDATASection.m"; sourceTree = "<group>"; };
 		286D0B7BA9B15A4F6775D5088E036A70 /* SVGPathElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGPathElement.h; path = "Source/DOM classes/Unported or Partial DOM/SVGPathElement.h"; sourceTree = "<group>"; };
 		2973EE370E62F80DB1B2321A7ADB7967 /* IQKeyboardManagerSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManagerSwift.debug.xcconfig; sourceTree = "<group>"; };
-		2A79D57149B7A495AAA28D479A665FB8 /* Pods-MovaStream-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MovaStream-frameworks.sh"; sourceTree = "<group>"; };
 		2ACAAB67C500C630DCFEF3BEFEC8FA31 /* CSSRule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSRule.h; path = "Source/DOM classes/Core DOM/CSSRule.h"; sourceTree = "<group>"; };
 		2ACCC193C37160AD097560F5D2E987E2 /* DatePickerDialog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DatePickerDialog.modulemap; sourceTree = "<group>"; };
 		2B993B189D88856BAE184F50AAE05F99 /* SVGKLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKLayer.h; path = "Source/QuartzCore additions/SVGKLayer.h"; sourceTree = "<group>"; };
@@ -710,6 +709,7 @@
 		52F61475885823A3FB6691E74FEE11F9 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		53807F4FA294D3AA61F86E9E9DEA7AC6 /* SVGTransformable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGTransformable.h; path = "Source/DOM classes/SVG-DOM/SVGTransformable.h"; sourceTree = "<group>"; };
 		53C769A4D2B1E4686E96499F3F82675D /* ESRefreshAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESRefreshAnimator.swift; path = Sources/ESRefreshAnimator.swift; sourceTree = "<group>"; };
+		5420EDC4F8C383EDFEB49B5B614AF26E /* Pods-mova-stream-ios-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mova-stream-ios-Info.plist"; sourceTree = "<group>"; };
 		548419541DB52267AC3E3C6000CA30FF /* SVGLength.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGLength.m; path = "Source/DOM classes/SVG-DOM/SVGLength.m"; sourceTree = "<group>"; };
 		55117CAEB872A0DE3699F844ECB16AB6 /* SVGKFastImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGKFastImageView.m; path = Source/ImageViews/SVGKFastImageView.m; sourceTree = "<group>"; };
 		551738DA74F060FFC06E08DBFDC400C3 /* DDASLLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogger.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDASLLogger.h; sourceTree = "<group>"; };
@@ -748,6 +748,7 @@
 		62C6CC4250BA2913B09F9445A2EF9523 /* SVGMatrix.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGMatrix.m; path = "Source/DOM classes/SVG-DOM/SVGMatrix.m"; sourceTree = "<group>"; };
 		6342775BC75B3BACB7C43B824E92A708 /* PagingInvalidationContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingInvalidationContext.swift; path = Parchment/Classes/PagingInvalidationContext.swift; sourceTree = "<group>"; };
 		636E9E32224B563BE3C412E5E80172AA /* CSSRuleList+Mutable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CSSRuleList+Mutable.h"; path = "Source/DOM classes/Core DOM/CSSRuleList+Mutable.h"; sourceTree = "<group>"; };
+		63F1BDD9059A725C1CDFE8CC8DEE8CE5 /* Pods-mova-stream-ios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mova-stream-ios-umbrella.h"; sourceTree = "<group>"; };
 		63F50FF4090CA0DD6F1C0DD5ED2A8403 /* SVGKParserStyles.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKParserStyles.h; path = "Source/Parsers/Parser Extensions/SVGKParserStyles.h"; sourceTree = "<group>"; };
 		64D24A2CCD11699BE65AB06D70FDF4F1 /* SVGCircleElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGCircleElement.m; path = "Source/DOM classes/Unported or Partial DOM/SVGCircleElement.m"; sourceTree = "<group>"; };
 		65651AC5C6333FE93E99B0EB5A9D3D0F /* PagingItems.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingItems.swift; path = Parchment/Structs/PagingItems.swift; sourceTree = "<group>"; };
@@ -770,7 +771,6 @@
 		71DBC56CE9541E6357BF3763825B80EA /* DDFileLogger+Buffering.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDFileLogger+Buffering.h"; path = "Sources/CocoaLumberjack/include/CocoaLumberjack/DDFileLogger+Buffering.h"; sourceTree = "<group>"; };
 		7378442F8539C923065758E18986809E /* SVGKExporterNSData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKExporterNSData.h; path = Source/Exporters/SVGKExporterNSData.h; sourceTree = "<group>"; };
 		73C79D25EE1D6EDB9610FA8CF996035E /* CRRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CRRefresh-umbrella.h"; sourceTree = "<group>"; };
-		7526577FD81F07555340EDB3077F5D8C /* Pods-MovaStream-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MovaStream-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7719A1018430541170F9CB1564DF26E6 /* SVGPolygonElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGPolygonElement.h; path = "Source/DOM classes/Unported or Partial DOM/SVGPolygonElement.h"; sourceTree = "<group>"; };
 		774E07ADF4D4D457C52AF1678789991A /* SVGKParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKParser.h; path = Source/Parsers/SVGKParser.h; sourceTree = "<group>"; };
 		77C8369AE1F97F8D31EF40979D2A191C /* CRRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CRRefresh-prefix.pch"; sourceTree = "<group>"; };
@@ -796,6 +796,7 @@
 		7F4D9FED7F023613F695424401E00126 /* StringStylizer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StringStylizer-dummy.m"; sourceTree = "<group>"; };
 		83291F362798F95635FCF70DCCBDE864 /* SVGKFastImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKFastImageView.h; path = Source/ImageViews/SVGKFastImageView.h; sourceTree = "<group>"; };
 		83A0850117B093305D3944BE04D67091 /* CSSRuleList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSSRuleList.m; path = "Source/DOM classes/Core DOM/CSSRuleList.m"; sourceTree = "<group>"; };
+		852D6336B485E1AB4CE2B2E9C8D9322A /* Pods-mova-stream-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mova-stream-ios.release.xcconfig"; sourceTree = "<group>"; };
 		853B4FAA53AFE73859C422F5466B0CFC /* Parchment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Parchment.release.xcconfig; sourceTree = "<group>"; };
 		8571B8717EDB028D0F5D529D692D47B9 /* SlackLoadingAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlackLoadingAnimator.swift; path = CRRefresh/CRRefresh/Animators/SlackLoadingAnimator/SlackLoadingAnimator.swift; sourceTree = "<group>"; };
 		85786E66B48E7FEABCB9231EE0D3BD69 /* FastCircleLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FastCircleLayer.swift; path = CRRefresh/CRRefresh/Animators/FastAnimator/FastCircleLayer.swift; sourceTree = "<group>"; };
@@ -841,7 +842,6 @@
 		99B03DB95B8E672FC0CA489AF1D5F915 /* SVGKParserPatternsAndGradients.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGKParserPatternsAndGradients.m; path = "Source/Parsers/Parser Extensions/SVGKParserPatternsAndGradients.m"; sourceTree = "<group>"; };
 		99C3FDCE079076F5D6E6FAEE0D0A87EE /* SVGPolylineElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGPolylineElement.m; path = "Source/DOM classes/Unported or Partial DOM/SVGPolylineElement.m"; sourceTree = "<group>"; };
 		9A085F9EB6E989DF22D2674E891A0E27 /* SVGSwitchElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGSwitchElement.m; path = "Source/DOM classes/Unported or Partial DOM/SVGSwitchElement.m"; sourceTree = "<group>"; };
-		9A8C752FADF354BCBF28075AFC9698DD /* Pods-MovaStream-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MovaStream-Info.plist"; sourceTree = "<group>"; };
 		9AD2574C354611A32F755AC7DC6199A8 /* TinySVGTextAreaElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TinySVGTextAreaElement.m; path = "Source/DOM classes/Unported or Partial DOM/TinySVGTextAreaElement.m"; sourceTree = "<group>"; };
 		9B0F8ADF7F07E91995BEEF4AE3647CC3 /* SVGKParserGradient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGKParserGradient.m; path = "Source/Parsers/Parser Extensions/SVGKParserGradient.m"; sourceTree = "<group>"; };
 		9B281FEF50BFC4D4F1BE9CC119B2B316 /* PagingMenuDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuDelegate.swift; path = Parchment/Protocols/PagingMenuDelegate.swift; sourceTree = "<group>"; };
@@ -853,6 +853,7 @@
 		9DEE8B1A9E3B46EED5DCF0A1D93F75DF /* ESPullToRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ESPullToRefresh.modulemap; sourceTree = "<group>"; };
 		9E037E4B1C1EC8582864541CF9AEEC38 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
 		9F60B4B71275B070C93F8024CCAE27A9 /* SVGPreserveAspectRatio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGPreserveAspectRatio.h; path = "Source/DOM classes/SVG-DOM/SVGPreserveAspectRatio.h"; sourceTree = "<group>"; };
+		A12A15A4FB527A4ED64CE6FA3D9AEAAD /* Pods-mova-stream-ios-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mova-stream-ios-acknowledgements.plist"; sourceTree = "<group>"; };
 		A184C038EDF2B920655A97C06E3C6F08 /* PageViewDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageViewDirection.swift; path = Parchment/Enums/PageViewDirection.swift; sourceTree = "<group>"; };
 		A1A9A809942EAA26628273FA8EBF9091 /* CSSValue_ForSubclasses.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSValue_ForSubclasses.h; path = "Source/DOM classes/Core DOM/CSSValue_ForSubclasses.h"; sourceTree = "<group>"; };
 		A1D47C15423AAE1AD4022213845C5781 /* SVGGradientElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGGradientElement.h; path = "Source/DOM classes/Unported or Partial DOM/SVGGradientElement.h"; sourceTree = "<group>"; };
@@ -895,6 +896,7 @@
 		B42D41A2C5F9F957E66D411BA96B36DF /* PagingStaticDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingStaticDataSource.swift; path = Parchment/Classes/PagingStaticDataSource.swift; sourceTree = "<group>"; };
 		B47E452D0A35D0E8EFADDCCF5475C3DA /* SVGKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKit.h; path = Source/SVGKit.h; sourceTree = "<group>"; };
 		B5198E961E97C9DC2E41484940BF1130 /* NodeList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NodeList.m; path = "Source/DOM classes/Core DOM/NodeList.m"; sourceTree = "<group>"; };
+		B60E9C46AD527CFBB6B129D46495FE86 /* Pods-mova-stream-ios */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-mova-stream-ios"; path = Pods_mova_stream_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B615FF9971072C18BE0C0C7EC6CA6DFF /* SVGTextContentElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGTextContentElement.h; path = "Source/DOM classes/SVG-DOM/SVGTextContentElement.h"; sourceTree = "<group>"; };
 		B8B33DB8CA7E31D4A0C814F80AC0AED3 /* CocoaLumberjack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaLumberjack-dummy.m"; sourceTree = "<group>"; };
 		B8CC7D7A0B5D2EFEB23436D07F680DA7 /* SVGPolylineElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGPolylineElement.h; path = "Source/DOM classes/Unported or Partial DOM/SVGPolylineElement.h"; sourceTree = "<group>"; };
@@ -911,7 +913,6 @@
 		BCAD2E603CB0B2C877E9C4C1036B47E2 /* InvalidationState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InvalidationState.swift; path = Parchment/Enums/InvalidationState.swift; sourceTree = "<group>"; };
 		BCBD6AAA0EECC67756F2E6C58E9EF956 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		BCCC2DB3D6AD579715CAF084100C5489 /* CSSStyleSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSSStyleSheet.m; path = "Source/DOM classes/Core DOM/CSSStyleSheet.m"; sourceTree = "<group>"; };
-		BCEB99A6A0ADF86578027584F830B0B4 /* Pods-MovaStream-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MovaStream-acknowledgements.plist"; sourceTree = "<group>"; };
 		BDD18ACB625B597CC06D7006C44D7FE5 /* Parchment */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Parchment; path = Parchment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE6E31240EEF078B330CE2779B2C757E /* DocumentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DocumentType.m; path = "Source/DOM classes/Core DOM/DocumentType.m"; sourceTree = "<group>"; };
 		BEF84FF81578566D97650474B824AC45 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
@@ -949,6 +950,7 @@
 		CA5461CC26D8E7DD4C64205F8F181E4D /* SVGKImageRep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKImageRep.h; path = "Source/AppKit additions/SVGKImageRep.h"; sourceTree = "<group>"; };
 		CAD893B0FBCD9D40150E2F2B4128A7AC /* SVGGradientStop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGGradientStop.h; path = "Source/DOM classes/Unported or Partial DOM/SVGGradientStop.h"; sourceTree = "<group>"; };
 		CAE08C2B209E12C1B756D0148F16C628 /* SVGDocument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGDocument.m; path = "Source/DOM classes/SVG-DOM/SVGDocument.m"; sourceTree = "<group>"; };
+		CB07A8F0AEDEA72C14BC35B5D27B8327 /* Pods-mova-stream-ios-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-mova-stream-ios-frameworks.sh"; sourceTree = "<group>"; };
 		CB24D8927FFC3F42E872E9AF9C6D2CDD /* DDContextFilterLogFormatter+Deprecated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDContextFilterLogFormatter+Deprecated.h"; path = "Sources/CocoaLumberjack/include/CocoaLumberjack/DDContextFilterLogFormatter+Deprecated.h"; sourceTree = "<group>"; };
 		CB2A56C4DF514C981712289733C08A57 /* SVGKExporterUIImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGKExporterUIImage.m; path = Source/Exporters/SVGKExporterUIImage.m; sourceTree = "<group>"; };
 		CB6D0E59B4EFBA87690CB148004876C9 /* DDFileLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDFileLogger.m; path = Sources/CocoaLumberjack/DDFileLogger.m; sourceTree = "<group>"; };
@@ -968,7 +970,6 @@
 		D04033711A60D12F06A401BCEC74EB42 /* DOMGlobalSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DOMGlobalSettings.h; path = "Source/DOM classes/Core DOM/DOMGlobalSettings.h"; sourceTree = "<group>"; };
 		D07FB1B1EA80518DDBF75712E04BEE46 /* ResourceBundle-CocoaLumberjackPrivacy-CocoaLumberjack-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CocoaLumberjackPrivacy-CocoaLumberjack-Info.plist"; sourceTree = "<group>"; };
 		D0F74D77658717ADE35ABEB512799BFA /* NSCharacterSet+SVGKExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSCharacterSet+SVGKExtensions.m"; path = "Source/Foundation additions/NSCharacterSet+SVGKExtensions.m"; sourceTree = "<group>"; };
-		D23B767AA83A8CCE82D693EA19A4C366 /* Pods-MovaStream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MovaStream.release.xcconfig"; sourceTree = "<group>"; };
 		D241B86DDF5469A306349A30199D3464 /* SVGTransform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGTransform.h; path = "Source/DOM classes/SVG-DOM/SVGTransform.h"; sourceTree = "<group>"; };
 		D29FFDA243CA2FE91A0B3B24797F6570 /* SVGTextLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGTextLayer.m; path = "Source/QuartzCore additions/SVGTextLayer.m"; sourceTree = "<group>"; };
 		D2F749704B87D716D15AF6E4B82675D8 /* RamotionWaveLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RamotionWaveLayer.swift; path = CRRefresh/CRRefresh/Animators/RamotionAnimator/RamotionWaveLayer.swift; sourceTree = "<group>"; };
@@ -978,7 +979,6 @@
 		D444621BC5D5EB762C33A2B95BAFA7C6 /* Node.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Node.m; path = "Source/DOM classes/Core DOM/Node.m"; sourceTree = "<group>"; };
 		D4DA0DE785517B0CE462F896C5BE6C46 /* PagingCollectionViewLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PagingCollectionViewLayout.debug.xcconfig; sourceTree = "<group>"; };
 		D5626CAF759D66FE1C0C1639611DB60F /* PagingMenuTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuTransition.swift; path = Parchment/Enums/PagingMenuTransition.swift; sourceTree = "<group>"; };
-		D5C220E4494DB10C36BF2A65F779C5F5 /* Pods-MovaStream */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MovaStream"; path = Pods_MovaStream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D644722F4C37242DEA5E84EF7C23A761 /* Document.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Document.h; path = "Source/DOM classes/Core DOM/Document.h"; sourceTree = "<group>"; };
 		D6E39F485D41F5761E07B8A892D91DFA /* ES.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ES.swift; path = Sources/ES.swift; sourceTree = "<group>"; };
 		D6FDCC00651259FFED7470B555F73145 /* PagingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingView.swift; path = Parchment/Classes/PagingView.swift; sourceTree = "<group>"; };
@@ -1000,12 +1000,12 @@
 		E07B4BBE316D68D8C605561831068613 /* PagingMenuInteraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuInteraction.swift; path = Parchment/Enums/PagingMenuInteraction.swift; sourceTree = "<group>"; };
 		E0CD976D537AB4C2C9ABFE52691CA720 /* SVGKSourceLocalFile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGKSourceLocalFile.m; path = Source/Sources/SVGKSourceLocalFile.m; sourceTree = "<group>"; };
 		E17EC833EB46A013CCFE8318D0D59B63 /* SVGDescriptionElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGDescriptionElement.m; path = "Source/DOM classes/Unported or Partial DOM/SVGDescriptionElement.m"; sourceTree = "<group>"; };
-		E193AA9E50804B5C4CDC400705415750 /* Pods-MovaStream.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MovaStream.modulemap"; sourceTree = "<group>"; };
 		E1CF7FDCA04550F3FDC3EDCD5F5FEA5C /* NormalHeader.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = NormalHeader.bundle; path = CRRefresh/CRRefresh/Animators/NormalAnimator/NormalHeader.bundle; sourceTree = "<group>"; };
 		E36805BFE2543FC157C64942B45E8B99 /* NormalFooterAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NormalFooterAnimator.swift; path = CRRefresh/CRRefresh/Animators/NormalAnimator/NormalFooterAnimator.swift; sourceTree = "<group>"; };
 		E430E9BE81E420755621715F75454E2B /* SVGSVGElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGSVGElement.m; path = "Source/DOM classes/Unported or Partial DOM/SVGSVGElement.m"; sourceTree = "<group>"; };
 		E45DF46DBEB9C830371AA6205BCCEAA5 /* SVGAngle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGAngle.h; path = "Source/DOM classes/SVG-DOM/SVGAngle.h"; sourceTree = "<group>"; };
 		E49F615AAE56263937A03E5B7B7A2ADB /* DDContextFilterLogFormatter+Deprecated.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "DDContextFilterLogFormatter+Deprecated.m"; path = "Sources/CocoaLumberjack/Extensions/DDContextFilterLogFormatter+Deprecated.m"; sourceTree = "<group>"; };
+		E4A3B3C32333F8259E71C3B01B23E276 /* Pods-mova-stream-ios-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-mova-stream-ios-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E5337C224CF794F34860DF13BF9D9285 /* SVGKImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGKImage.m; path = Source/SVGKImage.m; sourceTree = "<group>"; };
 		E53C0CB8027A6AD042106F60EE0B51C1 /* CSSStyleDeclaration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSSStyleDeclaration.h; path = "Source/DOM classes/Core DOM/CSSStyleDeclaration.h"; sourceTree = "<group>"; };
 		E5913BCEB4D63D0198CFADC508222207 /* Parchment-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Parchment-dummy.m"; sourceTree = "<group>"; };
@@ -1025,6 +1025,7 @@
 		EE76E3BB0F5E38DBB071FD69F343BF03 /* ESPullToRefresh+Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ESPullToRefresh+Manager.swift"; path = "Sources/ESPullToRefresh+Manager.swift"; sourceTree = "<group>"; };
 		EF08A190308A28E16622437474F41EE1 /* IQKeyboardManagerSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IQKeyboardManagerSwift-Info.plist"; sourceTree = "<group>"; };
 		EF9A9ABFC7B2A33AD8433CC7A92CFE18 /* SVGTransform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGTransform.m; path = "Source/DOM classes/SVG-DOM/SVGTransform.m"; sourceTree = "<group>"; };
+		F00DD8A4EE1C533770BF2B24E1C7520F /* Pods-mova-stream-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mova-stream-ios.debug.xcconfig"; sourceTree = "<group>"; };
 		F051E7458CD9C933AB21D1478F0C69B9 /* CAShapeLayerWithHitTest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CAShapeLayerWithHitTest.m; path = "Source/QuartzCore additions/CAShapeLayerWithHitTest.m"; sourceTree = "<group>"; };
 		F1273EF697002B0C986DFB1A6F986BCE /* SVGEllipseElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGEllipseElement.h; path = "Source/DOM classes/Unported or Partial DOM/SVGEllipseElement.h"; sourceTree = "<group>"; };
 		F12F441E0083746585D53B78B0D7FF57 /* CAShapeLayerWithClipRender.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CAShapeLayerWithClipRender.m; path = "Source/QuartzCore additions/CAShapeLayerWithClipRender.m"; sourceTree = "<group>"; };
@@ -1041,7 +1042,6 @@
 		F4817B496AA1962F702F408A67B0D030 /* DDTTYLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDTTYLogger.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDTTYLogger.h; sourceTree = "<group>"; };
 		F4DA782CA13D965C5A6BA509656B8971 /* SVGKDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGKDefine.h; path = Source/SVGKDefine.h; sourceTree = "<group>"; };
 		F52E01BC602876456E541097B7570DC2 /* SVGElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGElement.m; path = "Source/DOM classes/Unported or Partial DOM/SVGElement.m"; sourceTree = "<group>"; };
-		F5C62A43C636D0507C1C38D3B8774833 /* Pods-MovaStream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MovaStream.debug.xcconfig"; sourceTree = "<group>"; };
 		F62A9A7CD1AF22D131B8EDB1964A361A /* CRRefreshAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CRRefreshAnimator.swift; path = CRRefresh/CRRefresh/CRRefreshAnimator.swift; sourceTree = "<group>"; };
 		F66E6E2717A0A39584D5124F5AD761F8 /* Operator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operator.swift; path = StringStylizer/Operator.swift; sourceTree = "<group>"; };
 		F6AD97C3BCEDCEE16AEEECAF923FE786 /* DatePickerDialog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DatePickerDialog-dummy.m"; sourceTree = "<group>"; };
@@ -1086,6 +1086,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		19C2A832852A5DDE068278AEC6F34292 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5B98DF242ED388B045376BF63C38543 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		296B738CD4A1D073C7DD773BCC125A36 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1093,14 +1101,6 @@
 				AABF75F8DA77B01A9821BE0BB2661BEF /* CoreText.framework in Frameworks */,
 				7ADCF0EA4E4967D69EFBA67FDC745F38 /* Foundation.framework in Frameworks */,
 				62AFD516B39571BD4B18EE812D770AA3 /* QuartzCore.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3C88FA22A104A1A318D346D8D51CF9E0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				57ACFDC79798407CA79A4376CA83D225 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1610,23 +1610,6 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		664EAB3620529BCB76BBDFFC7AE7E959 /* Pods-MovaStream */ = {
-			isa = PBXGroup;
-			children = (
-				E193AA9E50804B5C4CDC400705415750 /* Pods-MovaStream.modulemap */,
-				7526577FD81F07555340EDB3077F5D8C /* Pods-MovaStream-acknowledgements.markdown */,
-				BCEB99A6A0ADF86578027584F830B0B4 /* Pods-MovaStream-acknowledgements.plist */,
-				05D9FF15B73D89D729DD72A43BF57E20 /* Pods-MovaStream-dummy.m */,
-				2A79D57149B7A495AAA28D479A665FB8 /* Pods-MovaStream-frameworks.sh */,
-				9A8C752FADF354BCBF28075AFC9698DD /* Pods-MovaStream-Info.plist */,
-				226BBB9749593788E036E23D1D63465F /* Pods-MovaStream-umbrella.h */,
-				F5C62A43C636D0507C1C38D3B8774833 /* Pods-MovaStream.debug.xcconfig */,
-				D23B767AA83A8CCE82D693EA19A4C366 /* Pods-MovaStream.release.xcconfig */,
-			);
-			name = "Pods-MovaStream";
-			path = "Target Support Files/Pods-MovaStream";
-			sourceTree = "<group>";
-		};
 		66E1F204FC9C2F99E18A5F4C9B053F19 /* Core */ = {
 			isa = PBXGroup;
 			children = (
@@ -1669,6 +1652,14 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		6878EB008D433F50E874FF0514A11EFF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D14EB2D24C7659F3899174F16863F2B7 /* Pods-mova-stream-ios */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		6C0C0240AF9AC145371272EE88E66787 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1682,26 +1673,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/PagingCollectionViewLayout";
-			sourceTree = "<group>";
-		};
-		6F743E8D20C000D3578B2D4508E55033 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */,
-				C261436D14052AE3C35F240BCD155CAC /* CocoaLumberjack */,
-				519AF98C92B517DD023896CD077EBFD4 /* CocoaLumberjack-CocoaLumberjackPrivacy */,
-				2CB62BA7EE0C76F7BE7D9B0848A6DFA2 /* CRRefresh */,
-				0969EB51C1E293C173141D48DC24C3B8 /* DatePickerDialog */,
-				876C4141D6ADC72BFBD0854AD5DD3DC5 /* ESPullToRefresh */,
-				BADAA893FFBF2C0B3B1CC6468C1C685F /* ESPullToRefresh-ESPullToRefresh */,
-				A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift */,
-				B1D76F982DA0793866252C70565AEB74 /* PagingCollectionViewLayout */,
-				BDD18ACB625B597CC06D7006C44D7FE5 /* Parchment */,
-				D5C220E4494DB10C36BF2A65F779C5F5 /* Pods-MovaStream */,
-				EA1CFCB0387D80A57A239A1B0AED7877 /* StringStylizer */,
-				F8437BE58881E63196CF1F80191B3E2F /* SVGKit */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		7716CCA42217ADBFF2F72F8D5DA97651 /* Support Files */ = {
@@ -1730,14 +1701,6 @@
 				09CF1E902B5338210258206921B1B600 /* UIKit.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		7B5DF80C66B7A0C759BF3D664380A0C1 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				664EAB3620529BCB76BBDFFC7AE7E959 /* Pods-MovaStream */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		8274A8AF07C5071C1860789984A0B02C /* PagingCollectionViewLayout */ = {
@@ -1789,6 +1752,26 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/StringStylizer";
+			sourceTree = "<group>";
+		};
+		A297610BEFAFE2052439E33C9270113A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */,
+				C261436D14052AE3C35F240BCD155CAC /* CocoaLumberjack */,
+				519AF98C92B517DD023896CD077EBFD4 /* CocoaLumberjack-CocoaLumberjackPrivacy */,
+				2CB62BA7EE0C76F7BE7D9B0848A6DFA2 /* CRRefresh */,
+				0969EB51C1E293C173141D48DC24C3B8 /* DatePickerDialog */,
+				876C4141D6ADC72BFBD0854AD5DD3DC5 /* ESPullToRefresh */,
+				BADAA893FFBF2C0B3B1CC6468C1C685F /* ESPullToRefresh-ESPullToRefresh */,
+				A8E950A16D00F649C54FFB30F81D7842 /* IQKeyboardManagerSwift */,
+				B1D76F982DA0793866252C70565AEB74 /* PagingCollectionViewLayout */,
+				BDD18ACB625B597CC06D7006C44D7FE5 /* Parchment */,
+				B60E9C46AD527CFBB6B129D46495FE86 /* Pods-mova-stream-ios */,
+				EA1CFCB0387D80A57A239A1B0AED7877 /* StringStylizer */,
+				F8437BE58881E63196CF1F80191B3E2F /* SVGKit */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		A2E80364B2BAF1E04DE94248D558B117 /* Support Files */ = {
@@ -1921,8 +1904,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				B94D7768568A9992200DB461E8CF687F /* Frameworks */,
 				EAF3458FBDEED9BDD4083B868AB12AC7 /* Pods */,
-				6F743E8D20C000D3578B2D4508E55033 /* Products */,
-				7B5DF80C66B7A0C759BF3D664380A0C1 /* Targets Support Files */,
+				A297610BEFAFE2052439E33C9270113A /* Products */,
+				6878EB008D433F50E874FF0514A11EFF /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1939,6 +1922,23 @@
 			);
 			name = StringStylizer;
 			path = StringStylizer;
+			sourceTree = "<group>";
+		};
+		D14EB2D24C7659F3899174F16863F2B7 /* Pods-mova-stream-ios */ = {
+			isa = PBXGroup;
+			children = (
+				20D296491F3C48A4EBE3415CBDF031D7 /* Pods-mova-stream-ios.modulemap */,
+				E4A3B3C32333F8259E71C3B01B23E276 /* Pods-mova-stream-ios-acknowledgements.markdown */,
+				A12A15A4FB527A4ED64CE6FA3D9AEAAD /* Pods-mova-stream-ios-acknowledgements.plist */,
+				0AE142E859D3294F114DCA0706F8E571 /* Pods-mova-stream-ios-dummy.m */,
+				CB07A8F0AEDEA72C14BC35B5D27B8327 /* Pods-mova-stream-ios-frameworks.sh */,
+				5420EDC4F8C383EDFEB49B5B614AF26E /* Pods-mova-stream-ios-Info.plist */,
+				63F1BDD9059A725C1CDFE8CC8DEE8CE5 /* Pods-mova-stream-ios-umbrella.h */,
+				F00DD8A4EE1C533770BF2B24E1C7520F /* Pods-mova-stream-ios.debug.xcconfig */,
+				852D6336B485E1AB4CE2B2E9C8D9322A /* Pods-mova-stream-ios.release.xcconfig */,
+			);
+			name = "Pods-mova-stream-ios";
+			path = "Target Support Files/Pods-mova-stream-ios";
 			sourceTree = "<group>";
 		};
 		EAF3458FBDEED9BDD4083B868AB12AC7 /* Pods */ = {
@@ -2014,14 +2014,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4EC2D73C4721E116741079EF4FC3D4F4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				48876F69F118AA5DB75AE7A102E569B6 /* Pods-MovaStream-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		61D51D199748D7FFA12921DB450AA021 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -2043,6 +2035,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF5A217D0888F7D7D7D7ACADAAF9E048 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA5906717F83DC8DFB2A9F1DA504B82 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E52ED8EB4FE6C6CAAEC6483843BD8D /* Pods-mova-stream-ios-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2250,6 +2250,34 @@
 			productReference = 519AF98C92B517DD023896CD077EBFD4 /* CocoaLumberjack-CocoaLumberjackPrivacy */;
 			productType = "com.apple.product-type.bundle";
 		};
+		2ED6BA5DA4DB48CB7EB5AB366F00F688 /* Pods-mova-stream-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF7216A95389A77BB6E3AA10604E3D27 /* Build configuration list for PBXNativeTarget "Pods-mova-stream-ios" */;
+			buildPhases = (
+				8DA5906717F83DC8DFB2A9F1DA504B82 /* Headers */,
+				8FF2EC7A94E654F13AC2DED78E0E4EDD /* Sources */,
+				19C2A832852A5DDE068278AEC6F34292 /* Frameworks */,
+				E01ED1B14A7A5DEC95D0B5CF1C9B6905 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AEE97651A136173287A4026A433E89D /* PBXTargetDependency */,
+				F0486149513A39B3E3AF39A869300802 /* PBXTargetDependency */,
+				8EFC90FA232A07C25147656FD622E2F6 /* PBXTargetDependency */,
+				490BAA82AC9B593F1F70DCD2E87C89E9 /* PBXTargetDependency */,
+				3AD4A2DF7426255F26EC421BEF0D760A /* PBXTargetDependency */,
+				1813F3E9CCDEFBDFF10F3AAEA8BC6708 /* PBXTargetDependency */,
+				ACAB8D14438A36003BF0EA9319B7E8F0 /* PBXTargetDependency */,
+				122F886AF4B37F540E204B43897008FD /* PBXTargetDependency */,
+				8E5FF4B467E0CDA4C7594F79C4AD212F /* PBXTargetDependency */,
+				9D9CC63ABDECBDEFE72EE6168F599CB3 /* PBXTargetDependency */,
+			);
+			name = "Pods-mova-stream-ios";
+			productName = Pods_mova_stream_ios;
+			productReference = B60E9C46AD527CFBB6B129D46495FE86 /* Pods-mova-stream-ios */;
+			productType = "com.apple.product-type.framework";
+		};
 		420F41DB8ACE6B60ADC74DEB0787160D /* StringStylizer */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B5D459DD92DD2B8F72BE2947968A7C4 /* Build configuration list for PBXNativeTarget "StringStylizer" */;
@@ -2395,34 +2423,6 @@
 			productReference = 876C4141D6ADC72BFBD0854AD5DD3DC5 /* ESPullToRefresh */;
 			productType = "com.apple.product-type.framework";
 		};
-		E57AA08B3FD21B7C3BC86034C4B1CE85 /* Pods-MovaStream */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1A6784C2CB5CAA668F35FE864094F30B /* Build configuration list for PBXNativeTarget "Pods-MovaStream" */;
-			buildPhases = (
-				4EC2D73C4721E116741079EF4FC3D4F4 /* Headers */,
-				54E2D3FA79B049A67E974A1B29904402 /* Sources */,
-				3C88FA22A104A1A318D346D8D51CF9E0 /* Frameworks */,
-				C9814E3B0F0285D991B2E45D9F348816 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F48BAA6A48BAF2C7537F60AF2EB5DD9F /* PBXTargetDependency */,
-				785BD0163A66D92C499CC0C8F1640F43 /* PBXTargetDependency */,
-				4F056DC4F60E93A39C1F8A9AF9D875F6 /* PBXTargetDependency */,
-				2527DCAA21DAF00CABF776E0CCF2E7DE /* PBXTargetDependency */,
-				C6B752639256C866B7B46FCA7B5BD55F /* PBXTargetDependency */,
-				D9E69E4E471673703F38FA55C21C7C7E /* PBXTargetDependency */,
-				8EA79E381BE970639CBDF304BE38F98A /* PBXTargetDependency */,
-				7FB02D1CC0429E16DC38FD3257811FE6 /* PBXTargetDependency */,
-				3FD23928AED0A7E3FD10EC0261746E83 /* PBXTargetDependency */,
-				A3FA6B54C049BA25D2B2390498A10852 /* PBXTargetDependency */,
-			);
-			name = "Pods-MovaStream";
-			productName = Pods_MovaStream;
-			productReference = D5C220E4494DB10C36BF2A65F779C5F5 /* Pods-MovaStream */;
-			productType = "com.apple.product-type.framework";
-		};
 		E95654B155D25890BE8E26081FCA8265 /* CocoaLumberjack */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFABCB1AA366BA3738F44C3D05F78B9F /* Build configuration list for PBXNativeTarget "CocoaLumberjack" */;
@@ -2480,7 +2480,7 @@
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			minimizedProjectReferenceProxies = 0;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 6F743E8D20C000D3578B2D4508E55033 /* Products */;
+			productRefGroup = A297610BEFAFE2052439E33C9270113A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -2494,7 +2494,7 @@
 				B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */,
 				821DAE73BAD04E30C664D9BD78CC814B /* PagingCollectionViewLayout */,
 				18184DEEDE7075D999122505659B55E9 /* Parchment */,
-				E57AA08B3FD21B7C3BC86034C4B1CE85 /* Pods-MovaStream */,
+				2ED6BA5DA4DB48CB7EB5AB366F00F688 /* Pods-mova-stream-ios */,
 				420F41DB8ACE6B60ADC74DEB0787160D /* StringStylizer */,
 				B537A1FD6BC67DF7FE8C2B34E5CE6F19 /* SVGKit */,
 			);
@@ -2585,7 +2585,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9814E3B0F0285D991B2E45D9F348816 /* Resources */ = {
+		E01ED1B14A7A5DEC95D0B5CF1C9B6905 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2708,20 +2708,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54E2D3FA79B049A67E974A1B29904402 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FA8B00C4FFF496B6F7D343C9C7F815A2 /* Pods-MovaStream-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		69D893A8041A1D3318A2537B3CDD6D02 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FCA79FDD5CFC843F730B510BEB7E18B1 /* PagingCollectionViewLayout.swift in Sources */,
 				B5DCFA45B579C25DF15D7748C45D63A4 /* PagingCollectionViewLayout-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF2EC7A94E654F13AC2DED78E0E4EDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC49406DE577898DF58046087CCA0B5B /* Pods-mova-stream-ios-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2960,11 +2960,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2527DCAA21DAF00CABF776E0CCF2E7DE /* PBXTargetDependency */ = {
+		122F886AF4B37F540E204B43897008FD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = DatePickerDialog;
-			target = 977B67E6ADDDC9C183DE6B6E33F17FCC /* DatePickerDialog */;
-			targetProxy = 4B037F3650B157178F52319853582DAA /* PBXContainerItemProxy */;
+			name = Parchment;
+			target = 18184DEEDE7075D999122505659B55E9 /* Parchment */;
+			targetProxy = DF24DFFDED83D224CA71E04927353DAA /* PBXContainerItemProxy */;
+		};
+		1813F3E9CCDEFBDFF10F3AAEA8BC6708 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IQKeyboardManagerSwift;
+			target = B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */;
+			targetProxy = C9DF910066310A2AC87A990FCBCEC0B7 /* PBXContainerItemProxy */;
 		};
 		35A8FED147F9312F3087EEF24B67F70F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2972,17 +2978,17 @@
 			target = 4D0B17E7706D0085077EE4EC352C4935 /* ESPullToRefresh-ESPullToRefresh */;
 			targetProxy = 669379CE93A977B83202EC0F583AC606 /* PBXContainerItemProxy */;
 		};
-		3FD23928AED0A7E3FD10EC0261746E83 /* PBXTargetDependency */ = {
+		3AD4A2DF7426255F26EC421BEF0D760A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SVGKit;
-			target = B537A1FD6BC67DF7FE8C2B34E5CE6F19 /* SVGKit */;
-			targetProxy = 1FDBA69C997EE6AC23E9C01F815D0894 /* PBXContainerItemProxy */;
+			name = ESPullToRefresh;
+			target = C6713CE2EAC37D5019C466B1104A3CAC /* ESPullToRefresh */;
+			targetProxy = 99ED80D0B45ADFCA8C6B920EDCCAAAA9 /* PBXContainerItemProxy */;
 		};
-		4F056DC4F60E93A39C1F8A9AF9D875F6 /* PBXTargetDependency */ = {
+		490BAA82AC9B593F1F70DCD2E87C89E9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = CocoaLumberjack;
-			target = E95654B155D25890BE8E26081FCA8265 /* CocoaLumberjack */;
-			targetProxy = CE8AB14453073247B40D5F284ED289A2 /* PBXContainerItemProxy */;
+			name = DatePickerDialog;
+			target = 977B67E6ADDDC9C183DE6B6E33F17FCC /* DatePickerDialog */;
+			targetProxy = A6D6C978497998B33ADDDECDA2681DB2 /* PBXContainerItemProxy */;
 		};
 		5684A9D115AD90B436810CE4A5A2AADC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2990,29 +2996,35 @@
 			target = 276021C4482165D46E0CBBEFB822FE95 /* CocoaLumberjack-CocoaLumberjackPrivacy */;
 			targetProxy = F120D48DD3FAFEAFF57EA60DD35FFDC1 /* PBXContainerItemProxy */;
 		};
-		785BD0163A66D92C499CC0C8F1640F43 /* PBXTargetDependency */ = {
+		8E5FF4B467E0CDA4C7594F79C4AD212F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = CRRefresh;
-			target = 88865108CFDFA8DACA4098B26884B841 /* CRRefresh */;
-			targetProxy = 0A8063CD83CE7A1DC4330E9DCB22D7C3 /* PBXContainerItemProxy */;
+			name = SVGKit;
+			target = B537A1FD6BC67DF7FE8C2B34E5CE6F19 /* SVGKit */;
+			targetProxy = A7D0663D64936DAA144827851C0256C9 /* PBXContainerItemProxy */;
 		};
-		7FB02D1CC0429E16DC38FD3257811FE6 /* PBXTargetDependency */ = {
+		8EFC90FA232A07C25147656FD622E2F6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Parchment;
-			target = 18184DEEDE7075D999122505659B55E9 /* Parchment */;
-			targetProxy = 7E64EB69A253277A0BA2A2312DC0C02B /* PBXContainerItemProxy */;
+			name = CocoaLumberjack;
+			target = E95654B155D25890BE8E26081FCA8265 /* CocoaLumberjack */;
+			targetProxy = CD2C009AE744D8A7E26DF28CEC7469AB /* PBXContainerItemProxy */;
 		};
-		8EA79E381BE970639CBDF304BE38F98A /* PBXTargetDependency */ = {
+		9AEE97651A136173287A4026A433E89D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = PagingCollectionViewLayout;
-			target = 821DAE73BAD04E30C664D9BD78CC814B /* PagingCollectionViewLayout */;
-			targetProxy = B5E5431FF5961041E058D44FC85CF55A /* PBXContainerItemProxy */;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = F1903D2A540D3CA83ED350D2DD2F0EF2 /* PBXContainerItemProxy */;
 		};
-		A3FA6B54C049BA25D2B2390498A10852 /* PBXTargetDependency */ = {
+		9D9CC63ABDECBDEFE72EE6168F599CB3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = StringStylizer;
 			target = 420F41DB8ACE6B60ADC74DEB0787160D /* StringStylizer */;
-			targetProxy = 19964B5BFC8416946D47B3992217E008 /* PBXContainerItemProxy */;
+			targetProxy = 36C63FA89D2F56E4170803DE496B243A /* PBXContainerItemProxy */;
+		};
+		ACAB8D14438A36003BF0EA9319B7E8F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PagingCollectionViewLayout;
+			target = 821DAE73BAD04E30C664D9BD78CC814B /* PagingCollectionViewLayout */;
+			targetProxy = BE08F0BE49E817705843C645D784312D /* PBXContainerItemProxy */;
 		};
 		B35D045F59BF29B3D8FA5FC712819E80 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3020,23 +3032,11 @@
 			target = E95654B155D25890BE8E26081FCA8265 /* CocoaLumberjack */;
 			targetProxy = 6CF09CB23AE0ECC3C3A6B09755224C4A /* PBXContainerItemProxy */;
 		};
-		C6B752639256C866B7B46FCA7B5BD55F /* PBXTargetDependency */ = {
+		F0486149513A39B3E3AF39A869300802 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ESPullToRefresh;
-			target = C6713CE2EAC37D5019C466B1104A3CAC /* ESPullToRefresh */;
-			targetProxy = 92F50965FD9F9CE2134326EE70F0483D /* PBXContainerItemProxy */;
-		};
-		D9E69E4E471673703F38FA55C21C7C7E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = IQKeyboardManagerSwift;
-			target = B490E7485944099E16C9CBD79119D1D4 /* IQKeyboardManagerSwift */;
-			targetProxy = 01AB19D792FB8EC14690067E5E4EB3C8 /* PBXContainerItemProxy */;
-		};
-		F48BAA6A48BAF2C7537F60AF2EB5DD9F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Alamofire;
-			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
-			targetProxy = 35924C551E1EDA0DDAC9A93968119D91 /* PBXContainerItemProxy */;
+			name = CRRefresh;
+			target = 88865108CFDFA8DACA4098B26884B841 /* CRRefresh */;
+			targetProxy = A7E207B8F6B21AA60D895F948D61B60C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -3073,6 +3073,45 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1304A82B6517D1F0EEA77227639A064F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F00DD8A4EE1C533770BF2B24E1C7520F /* Pods-mova-stream-ios.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-mova-stream-ios/Pods-mova-stream-ios-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mova-stream-ios/Pods-mova-stream-ios.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -3322,46 +3361,6 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_INSTALL_OBJC_HEADER = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		645DED8B63384B3A28F0211DDB44D972 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D23B767AA83A8CCE82D693EA19A4C366 /* Pods-MovaStream.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-MovaStream/Pods-MovaStream-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MovaStream/Pods-MovaStream.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -4049,9 +4048,9 @@
 			};
 			name = Release;
 		};
-		EFAC5B7203BE61FBADC544C2D5AFE49C /* Debug */ = {
+		FDB9DBFB78476DC5FB1FEA58C4A49D99 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5C62A43C636D0507C1C38D3B8774833 /* Pods-MovaStream.debug.xcconfig */;
+			baseConfigurationReference = 852D6336B485E1AB4CE2B2E9C8D9322A /* Pods-mova-stream-ios.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -4065,7 +4064,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-MovaStream/Pods-MovaStream-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-mova-stream-ios/Pods-mova-stream-ios-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -4074,7 +4073,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MovaStream/Pods-MovaStream.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-mova-stream-ios/Pods-mova-stream-ios.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -4083,10 +4082,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -4096,15 +4096,6 @@
 			buildConfigurations = (
 				7CFBF6EEFC844CB43F54B339EEE1B140 /* Debug */,
 				B3C7C99F20FE1066383BF004A490A8F8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1A6784C2CB5CAA668F35FE864094F30B /* Build configuration list for PBXNativeTarget "Pods-MovaStream" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EFAC5B7203BE61FBADC544C2D5AFE49C /* Debug */,
-				645DED8B63384B3A28F0211DDB44D972 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4213,6 +4204,15 @@
 			buildConfigurations = (
 				7B5218E4E8DFFA75F34E7D76C9CE0CEE /* Debug */,
 				ABF1487314E9B85F0F5372256E49E086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF7216A95389A77BB6E3AA10604E3D27 /* Build configuration list for PBXNativeTarget "Pods-mova-stream-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1304A82B6517D1F0EEA77227639A064F /* Debug */,
+				FDB9DBFB78476DC5FB1FEA58C4A49D99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
