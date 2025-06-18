@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D3203BC2E02BD4500C8ABED /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3203BB2E02BD4500C8ABED /* BaseViewController.swift */; };
+		4D3203BE2E02BD7700C8ABED /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3203BD2E02BD7700C8ABED /* BaseView.swift */; };
+		4D3203C02E02BE2000C8ABED /* BaseHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3203BF2E02BE2000C8ABED /* BaseHeaderView.swift */; };
+		4D3203CA2E02D2FF00C8ABED /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 4D3203C92E02D2FF00C8ABED /* Nuke */; };
+		4D3203CC2E02D2FF00C8ABED /* NukeExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = 4D3203CB2E02D2FF00C8ABED /* NukeExtensions */; };
+		4D3203CE2E02D2FF00C8ABED /* NukeUI in Frameworks */ = {isa = PBXBuildFile; productRef = 4D3203CD2E02D2FF00C8ABED /* NukeUI */; };
+		4D3203D02E02D2FF00C8ABED /* NukeVideo in Frameworks */ = {isa = PBXBuildFile; productRef = 4D3203CF2E02D2FF00C8ABED /* NukeVideo */; };
 		4DCEA83E2E02A34300F411DF /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCEA83C2E02A34300F411DF /* HomeViewController.xib */; };
 		4DCEA83F2E02A34300F411DF /* ExploreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCEA8392E02A34300F411DF /* ExploreViewController.xib */; };
 		4DCEA8402E02A34300F411DF /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCEA8332E02A34300F411DF /* ProfileViewController.xib */; };
@@ -69,14 +76,13 @@
 		B2CBB69529F918F000527AB5 /* Extension+Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CBB67829F918F000527AB5 /* Extension+Date.swift */; };
 		B2CBB69629F918F000527AB5 /* Extension+CAGradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CBB67929F918F000527AB5 /* Extension+CAGradientLayer.swift */; };
 		B2CBB69729F918F000527AB5 /* Extension+UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CBB67A29F918F000527AB5 /* Extension+UIStackView.swift */; };
-		B2CBB6A429F91E2300527AB5 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CBB6A329F91E2300527AB5 /* MasterViewController.swift */; };
-		B2CBB6A629F91EC800527AB5 /* MasterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CBB6A529F91EC800527AB5 /* MasterView.swift */; };
-		B2EEEC0D29FAFC0900846F3F /* NukeUI in Frameworks */ = {isa = PBXBuildFile; productRef = B2EEEC0C29FAFC0900846F3F /* NukeUI */; };
-		B2EEEC0F29FAFC0900846F3F /* NukeVideo in Frameworks */ = {isa = PBXBuildFile; productRef = B2EEEC0E29FAFC0900846F3F /* NukeVideo */; };
 		CCBBD1ADBCD485EAE690A624 /* Pods_mova_stream_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E99E30379865F4D4B864472B /* Pods_mova_stream_ios.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D3203BB2E02BD4500C8ABED /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		4D3203BD2E02BD7700C8ABED /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		4D3203BF2E02BE2000C8ABED /* BaseHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseHeaderView.swift; sourceTree = "<group>"; };
 		4DCEA8322E02A34300F411DF /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		4DCEA8332E02A34300F411DF /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
 		4DCEA8352E02A34300F411DF /* MyListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListViewController.swift; sourceTree = "<group>"; };
@@ -141,8 +147,6 @@
 		B2CBB67829F918F000527AB5 /* Extension+Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+Date.swift"; sourceTree = "<group>"; };
 		B2CBB67929F918F000527AB5 /* Extension+CAGradientLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+CAGradientLayer.swift"; sourceTree = "<group>"; };
 		B2CBB67A29F918F000527AB5 /* Extension+UIStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+UIStackView.swift"; sourceTree = "<group>"; };
-		B2CBB6A329F91E2300527AB5 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		B2CBB6A529F91EC800527AB5 /* MasterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterView.swift; sourceTree = "<group>"; };
 		DE8785041195EC2F323A1576 /* Pods-mova-stream-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mova-stream-ios.debug.xcconfig"; path = "Target Support Files/Pods-mova-stream-ios/Pods-mova-stream-ios.debug.xcconfig"; sourceTree = "<group>"; };
 		E99E30379865F4D4B864472B /* Pods_mova_stream_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mova_stream_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE7D61782BFB78794503FFC2 /* Pods-mova-stream-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mova-stream-ios.release.xcconfig"; path = "Target Support Files/Pods-mova-stream-ios/Pods-mova-stream-ios.release.xcconfig"; sourceTree = "<group>"; };
@@ -153,9 +157,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2EEEC0D29FAFC0900846F3F /* NukeUI in Frameworks */,
-				B2EEEC0F29FAFC0900846F3F /* NukeVideo in Frameworks */,
 				CCBBD1ADBCD485EAE690A624 /* Pods_mova_stream_ios.framework in Frameworks */,
+				4D3203CA2E02D2FF00C8ABED /* Nuke in Frameworks */,
+				4D3203D02E02D2FF00C8ABED /* NukeVideo in Frameworks */,
+				4D3203CC2E02D2FF00C8ABED /* NukeExtensions in Frameworks */,
+				4D3203CE2E02D2FF00C8ABED /* NukeUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,11 +379,11 @@
 		B2CBB6A229F91DF600527AB5 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				B2CBB6A329F91E2300527AB5 /* MasterViewController.swift */,
-				B2CBB6A529F91EC800527AB5 /* MasterView.swift */,
 				B2CA011729F97D980072E11F /* PreviewUI.swift */,
 				B2CA013329F9A2F70072E11F /* StretchyTableHeaderView.swift */,
 				B2CA013529F9A4DD0072E11F /* ThumbMovieCollectionViewCell.swift */,
+				4D3203BB2E02BD4500C8ABED /* BaseViewController.swift */,
+				4D3203BD2E02BD7700C8ABED /* BaseView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -385,6 +391,7 @@
 		B2CBB6A729F91F4000527AB5 /* Layouts */ = {
 			isa = PBXGroup;
 			children = (
+				4D3203BF2E02BE2000C8ABED /* BaseHeaderView.swift */,
 			);
 			path = Layouts;
 			sourceTree = "<group>";
@@ -408,8 +415,10 @@
 			);
 			name = "mova-stream-ios";
 			packageProductDependencies = (
-				B2EEEC0C29FAFC0900846F3F /* NukeUI */,
-				B2EEEC0E29FAFC0900846F3F /* NukeVideo */,
+				4D3203C92E02D2FF00C8ABED /* Nuke */,
+				4D3203CB2E02D2FF00C8ABED /* NukeExtensions */,
+				4D3203CD2E02D2FF00C8ABED /* NukeUI */,
+				4D3203CF2E02D2FF00C8ABED /* NukeVideo */,
 			);
 			productName = MovaStream;
 			productReference = B2CBB63D29F9149400527AB5 /* mova-stream-ios.app */;
@@ -440,7 +449,7 @@
 			);
 			mainGroup = B2CBB63429F9149400527AB5;
 			packageReferences = (
-				B2EEEC0B29FAFC0900846F3F /* XCRemoteSwiftPackageReference "Nuke" */,
+				4D3203C82E02D2FF00C8ABED /* XCRemoteSwiftPackageReference "Nuke" */,
 			);
 			productRefGroup = B2CBB63E29F9149400527AB5 /* Products */;
 			projectDirPath = "";
@@ -531,6 +540,7 @@
 				B2CBB68429F918F000527AB5 /* Extension+Dictionary.swift in Sources */,
 				B2CBB68029F918F000527AB5 /* Extension+UIImage.swift in Sources */,
 				B2CA013429F9A2F70072E11F /* StretchyTableHeaderView.swift in Sources */,
+				4D3203C02E02BE2000C8ABED /* BaseHeaderView.swift in Sources */,
 				B2CBB68729F918F000527AB5 /* Extension+String.swift in Sources */,
 				B2CBB64129F9149400527AB5 /* AppDelegate.swift in Sources */,
 				B2787DC32A024E7900AAD64B /* MoviesViewController.swift in Sources */,
@@ -538,13 +548,13 @@
 				B2CBB67E29F918F000527AB5 /* Extension+UIImageView.swift in Sources */,
 				B2CBB69329F918F000527AB5 /* Extension+UIView.swift in Sources */,
 				B2CBB69529F918F000527AB5 /* Extension+Date.swift in Sources */,
+				4D3203BC2E02BD4500C8ABED /* BaseViewController.swift in Sources */,
 				B2CBB68229F918F000527AB5 /* Extension+Codable.swift in Sources */,
 				B2CA013D29F9B2640072E11F /* Extension+UIApplication.swift in Sources */,
 				B2CBB65C29F9164A00527AB5 /* MainTabBarViewController.swift in Sources */,
 				B2CA011829F97D980072E11F /* PreviewUI.swift in Sources */,
 				B2CBB68B29F918F000527AB5 /* Extension+UIGestureRecognizer.swift in Sources */,
 				B2CBB68929F918F000527AB5 /* Extension+UIEdgeInsets.swift in Sources */,
-				B2CBB6A629F91EC800527AB5 /* MasterView.swift in Sources */,
 				B2787DC12A024E6100AAD64B /* AllCategoryViewController.swift in Sources */,
 				B2CBB69029F918F000527AB5 /* Extension+UIButton.swift in Sources */,
 				B2CBB67F29F918F000527AB5 /* Extension+UIViewController.swift in Sources */,
@@ -571,7 +581,7 @@
 				B2CBB68829F918F000527AB5 /* Extension+NSObject.swift in Sources */,
 				B2CBB68E29F918F000527AB5 /* Extension+UIColor.swift in Sources */,
 				B2CA013629F9A4DD0072E11F /* ThumbMovieCollectionViewCell.swift in Sources */,
-				B2CBB6A429F91E2300527AB5 /* MasterViewController.swift in Sources */,
+				4D3203BE2E02BD7700C8ABED /* BaseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -785,25 +795,35 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		B2EEEC0B29FAFC0900846F3F /* XCRemoteSwiftPackageReference "Nuke" */ = {
+		4D3203C82E02D2FF00C8ABED /* XCRemoteSwiftPackageReference "Nuke" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/kean/Nuke.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 12.0.0;
+				minimumVersion = 12.8.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		B2EEEC0C29FAFC0900846F3F /* NukeUI */ = {
+		4D3203C92E02D2FF00C8ABED /* Nuke */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B2EEEC0B29FAFC0900846F3F /* XCRemoteSwiftPackageReference "Nuke" */;
+			package = 4D3203C82E02D2FF00C8ABED /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+		4D3203CB2E02D2FF00C8ABED /* NukeExtensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4D3203C82E02D2FF00C8ABED /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeExtensions;
+		};
+		4D3203CD2E02D2FF00C8ABED /* NukeUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4D3203C82E02D2FF00C8ABED /* XCRemoteSwiftPackageReference "Nuke" */;
 			productName = NukeUI;
 		};
-		B2EEEC0E29FAFC0900846F3F /* NukeVideo */ = {
+		4D3203CF2E02D2FF00C8ABED /* NukeVideo */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B2EEEC0B29FAFC0900846F3F /* XCRemoteSwiftPackageReference "Nuke" */;
+			package = 4D3203C82E02D2FF00C8ABED /* XCRemoteSwiftPackageReference "Nuke" */;
 			productName = NukeVideo;
 		};
 /* End XCSwiftPackageProductDependency section */

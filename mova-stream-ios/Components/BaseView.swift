@@ -1,13 +1,12 @@
 //
-//  MasterView.swift
+//  BaseView.swift
 //  Mova
 //
 //  Created by HauNguyen on 09/12/2565 BE.
 //
-
 import UIKit
 
-class MasterView: UIView {
+class BaseView: UIView {
 
     convenience init() {
         self.init(frame: .zero)

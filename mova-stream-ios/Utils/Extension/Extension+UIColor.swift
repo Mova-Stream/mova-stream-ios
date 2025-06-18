@@ -66,6 +66,11 @@ extension UIColor {
         return UIColor(hex: "959192")
     }
     
+    /// Background color
+    static var baseBackgroundColor: UIColor {
+        return UIColor(hex: "191A1F")
+    }
+    
     /// Main color
     static var primaryRed: UIColor {
         return UIColor(hex: "E21221")

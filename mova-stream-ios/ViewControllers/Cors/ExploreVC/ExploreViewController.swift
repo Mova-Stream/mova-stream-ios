@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ExploreViewController: MasterViewController {
+class ExploreViewController: BaseViewController {
         
     
     override func viewDidLoad() {
