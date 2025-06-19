@@ -37,6 +37,7 @@ class StretchyTableHeaderView: UIView {
         // ImageView for background
         imageView = UIImageView()
         imageView.clipsToBounds = true
+        imageView.backgroundColor = .yellow
         imageView.contentMode = .scaleAspectFill
         containerView.addSubview(imageView)
     }
@@ -72,3 +73,32 @@ class StretchyTableHeaderView: UIView {
         imageViewHeight.constant = max(offsetY + scrollView.contentInset.top, scrollView.contentInset.top)
     }
 }
+
+// MARK: - Using
+/**
+ 
+    Adding Stretchy Header in UITableView
+    ```swift
+     class TableView: UIViewController {
+         @IBOutlet var tableView: UITableView!
+         
+         override func viewDidLoad() {
+             super.viewDidLoad()
+
+             // ...
+             
+             let headerView = StretchyTableHeaderView(frame: CGRect(x: 0, y: 0, width: self.view.bounds.width, height: 250))
+             // Image from unsplash: https://unsplash.com/photos/iVPWGCbFwd8
+             headerView.imageView.image = UIImage(named: "headerbg")
+             self.tableView.tableHeaderView = headerView
+         }
+     }
+ 
+     extension TableView: UIScrollViewDelegate {
+         func scrollViewDidScroll(_ scrollView: UIScrollView) {
+             let headerView = self.tableView.tableHeaderView as! StretchyTableHeaderView
+             headerView.scrollViewDidScroll(scrollView: scrollView)
+         }
+     }
+    ```
+ */

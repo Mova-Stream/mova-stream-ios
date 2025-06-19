@@ -7,8 +7,10 @@
 
 import UIKit
 import SwiftUI
+import ComponentsKit
+import AutoLayout
 
-class HomeViewController: BaseViewController {
+class HomeViewController: ScrollViewWithStretchyHeaderView {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,6 +18,29 @@ class HomeViewController: BaseViewController {
     }
     
 }
+
+// MARK: - Navigation
+extension HomeViewController {
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        super.prepare(for: segue, sender: sender)
+        if let destination = segue.destination as? UINavigationController,
+           let viewController = destination.viewControllers.first as? BaseViewController {
+            viewController.hidesBottomBarWhenPushed = true
+        }
+    }
+    
+    @objc private func didTapSearchBarItem() {
+        // Handle left bar item tap
+        NSLog("Search bar item tapped")
+    }
+    
+    @objc private func didTapBellBarItem() {
+        // Handle right bar item tap
+        NSLog("Bell bar item tapped")
+    }
+}
+
 
 // MARK: - Setup UI
 extension HomeViewController {
@@ -25,33 +50,43 @@ extension HomeViewController {
     }
     
     private func setupNavigationBarItem() {
-        guard let logoImage = UIImage(named: "mova"),
-        let resizedImage = logoImage.resized(to: CGSize(width: 24, height: 24))?.withRenderingMode(.alwaysOriginal) else { return }
-        self.setLeftBarItem(icon: resizedImage)
+        let logoButton = UKButton(model: ButtonVM {
+            $0.title = ""
+            $0.imageSrc = ButtonVM.ImageSource.local("mova", bundle: nil)
+            $0.imageRenderingMode = .original
+            $0.color = ComponentColor(main: .clear, contrast: .clear, background: .clear)
+            $0.size = .large
+            $0.isEnabled = false
+        }, action: {})
         
-        guard let searchImage = UIImage(named: "ic_search"),
-        let resizedSearchImage = searchImage.resized(to: CGSize(width: 24, height: 24))?.withRenderingMode(.alwaysOriginal) else { return }
-        let searchButton = UIButton(type: .system)
-        searchButton.setImage(resizedSearchImage, for: .normal)
-        searchButton.translatesAutoresizingMaskIntoConstraints = false
+        let searchButton = UKButton(model: ButtonVM {
+            $0.title = ""
+            $0.imageSrc = ButtonVM.ImageSource.local("ic_search", bundle: nil)
+            $0.imageRenderingMode = .template
+            $0.color = ComponentColor(main: .white, contrast: .clear)
+            $0.style = .minimal
+        }, action: didTapSearchBarItem)
         
-        guard let bellImage = UIImage(named: "ic_bell_outline"),
-        let resizedBellImage = bellImage.resized(to: CGSize(width: 24, height: 24))?.withRenderingMode(.alwaysOriginal) else { return }
-        let bellButton = UIButton(type: .system)
-        bellButton.setImage(resizedBellImage, for: .normal)
-        bellButton.translatesAutoresizingMaskIntoConstraints = false
+        let bellButton = UKButton(model: ButtonVM {
+            $0.title = ""
+            $0.imageSrc = ButtonVM.ImageSource.local("ic_bell", bundle: nil)
+            $0.imageRenderingMode = .template
+            $0.color = ComponentColor(main: .white, contrast: .clear)
+            $0.style = .minimal
+        }, action: didTapBellBarItem)
         
-        let rightView = UIView(frame: CGRect(x: 0, y: 0, width: 64, height: 24))
-        rightView.addSubview(searchButton)
-        rightView.addSubview(bellButton)
+        let stackView = UIStackView(subViews: [searchButton, bellButton], axis: .horizontal, spacing: 24, distribution: .fillEqually)
         
-        searchButton.anchor(leading: rightView.leadingAnchor)
-        searchButton.centerY(superview: rightView)
+        self.setLeftBarItem(view: logoButton)
+        self.setRightBarItem(view: stackView)
         
-        bellButton.anchor(trailing: rightView.trailingAnchor)
-        bellButton.centerY(superview: rightView)
+        self.imageView.image = UIImage(named: "doctor_strange2")
         
-        self.setRightBarItem(view: rightView)
+//        let text = UILabel()
+//        text.text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor risus sapien, eu mattis eros cursus a. Ut auctor ipsum ut placerat vehicula. Nulla sed risus nec neque placerat imperdiet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend ante vel purus condimentum, sit amet congue nibh rutrum. Donec tristique sollicitudin nulla, quis consectetur purus bibendum ut. Nam finibus eleifend erat in eleifend. Nam nunc nibh, molestie vel dui sit amet, viverra consequat felis. Curabitur hendrerit rutrum convallis. Nulla facilisi. Mauris pretium et dolor vitae vestibulum. \n\nNullam facilisis nisi a sagittis consectetur. Proin tristique rutrum lobortis. Nam vitae mauris in ex convallis placerat. Pellentesque sed sodales diam. Fusce volutpat orci tristique justo fringilla, a efficitur urna fermentum. Maecenas sagittis tellus sed lorem maximus, at blandit enim vestibulum. Ut ac tempus diam, ut lobortis ipsum. Mauris sodales nibh laoreet arcu vestibulum, quis tincidunt ipsum mattis. Nunc eleifend justo a purus porta varius. Nulla facilisi. Cras et cursus magna. \n\nDonec id nibh nunc. Mauris efficitur sem et turpis pellentesque, faucibus venenatis mauris pulvinar. Sed sed porta ligula, eu commodo elit. Nam congue tempor odio, a porta nisi dignissim sit amet. Vestibulum sed egestas mauris. Aenean vitae nisi quis mauris hendrerit blandit. Fusce ante sem, auctor et posuere at, porttitor vel dolor. \n\nNulla elementum posuere rhoncus. In vestibulum sit amet neque at malesuada. Duis suscipit vehicula enim at pretium. Phasellus non venenatis tellus. Vivamus ut arcu dignissim, vehicula lorem et, pharetra risus. Donec ut interdum ante. Fusce feugiat eget ante nec commodo. Nulla at purus rutrum, commodo metus quis, aliquet eros. Suspendisse consequat sem at nibh vulputate, non elementum purus molestie. Vivamus sit amet euismod dolor, ac ornare mi. Pellentesque semper tincidunt dolor vitae laoreet. Duis dapibus odio nec nunc facilisis ullamcorper. Nulla facilisi. Duis nec velit sollicitudin, mollis lectus et, lobortis est. \n\nMorbi ac aliquam risus. Nunc ac nisi aliquam, porta arcu vel, porttitor dui. Aliquam lectus dui, pellentesque vitae commodo a, suscipit id velit. Nunc sed libero sit amet magna aliquam congue et quis neque. Praesent suscipit aliquam enim, in vulputate mi commodo efficitur. Nunc semper aliquam viverra. Aliquam erat volutpat. Mauris magna leo, egestas eget ex et, facilisis ornare lectus."
+//        text.translatesAutoresizingMaskIntoConstraints = false
+//        self.contentView.addSubview(text)
+//        text.anchor(top: self.contentView.topAnchor, leading: self.contentView.leadingAnchor, bottom: self.contentView.bottomAnchor, trailing: self.contentView.trailingAnchor)
     }
     
 }

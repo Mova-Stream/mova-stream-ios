@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let _window = UIWindow(frame: UIScreen.main.bounds)
         
-        let navVC = UINavigationController(rootViewController: MainTabBarViewController())
+        let navVC = UINavigationController(rootViewController: ScrollViewWithStretchyHeaderView())
 //        navVC.navigationBar.prefersLargeTitles = true
 //        navVC.viewControllers.first?.navigationItem.largeTitleDisplayMode = .always
         _window.rootViewController = navVC

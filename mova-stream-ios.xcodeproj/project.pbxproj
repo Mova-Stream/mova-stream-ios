@@ -14,6 +14,28 @@
 		4D3203CC2E02D2FF00C8ABED /* NukeExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = 4D3203CB2E02D2FF00C8ABED /* NukeExtensions */; };
 		4D3203CE2E02D2FF00C8ABED /* NukeUI in Frameworks */ = {isa = PBXBuildFile; productRef = 4D3203CD2E02D2FF00C8ABED /* NukeUI */; };
 		4D3203D02E02D2FF00C8ABED /* NukeVideo in Frameworks */ = {isa = PBXBuildFile; productRef = 4D3203CF2E02D2FF00C8ABED /* NukeVideo */; };
+		4D52B8FF2E03A9A70057B25B /* ComponentsKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4D52B8FE2E03A9A70057B25B /* ComponentsKit */; };
+		4D52B9012E03B51C0057B25B /* ThemeConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D52B9002E03B51C0057B25B /* ThemeConfig.swift */; };
+		4D52B9152E03B58D0057B25B /* Urbanist-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D52B9062E03B58D0057B25B /* Urbanist-ExtraBold.ttf */; };
+		4D52B9162E03B58D0057B25B /* Urbanist-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D52B9082E03B58D0057B25B /* Urbanist-ExtraLight.ttf */; };
+		4D52B9172E03B58D0057B25B /* Urbanist-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D52B9132E03B58D0057B25B /* Urbanist-ThinItalic.ttf */; };
+		4D52B9182E03B58D0057B25B /* Urbanist-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D52B9042E03B58D0057B25B /* Urbanist-Bold.ttf */; };
+		4D52B9192E03B58D0057B25B /* Urbanist-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D52B9102E03B58D0057B25B /* Urbanist-SemiBold.ttf */; };
+		4D52B91A2E03B58D0057B25B /* Urbanist-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D52B9072E03B58D0057B25B /* Urbanist-ExtraBoldItalic.ttf */; };
+		4D52B91B2E03B58D0057B25B /* Urbanist-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D52B9052E03B58D0057B25B /* Urbanist-BoldItalic.ttf */; };
+		4D52B91C2E03B58D0057B25B /* Urbanist-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D52B90E2E03B58D0057B25B /* Urbanist-MediumItalic.ttf */; };
+		4D52B91D2E03B58D0057B25B /* Urbanist-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D52B90D2E03B58D0057B25B /* Urbanist-Medium.ttf */; };
+		4D52B91E2E03B58D0057B25B /* Urbanist-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D52B90F2E03B58D0057B25B /* Urbanist-Regular.ttf */; };
+		4D52B91F2E03B58D0057B25B /* Urbanist-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D52B9022E03B58D0057B25B /* Urbanist-Black.ttf */; };
+		4D52B9202E03B58D0057B25B /* Urbanist-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D52B90B2E03B58D0057B25B /* Urbanist-Light.ttf */; };
+		4D52B9212E03B58D0057B25B /* Urbanist-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D52B90A2E03B58D0057B25B /* Urbanist-Italic.ttf */; };
+		4D52B9222E03B58D0057B25B /* Urbanist-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D52B9032E03B58D0057B25B /* Urbanist-BlackItalic.ttf */; };
+		4D52B9232E03B58D0057B25B /* Urbanist-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D52B9112E03B58D0057B25B /* Urbanist-SemiBoldItalic.ttf */; };
+		4D52B9242E03B58D0057B25B /* Urbanist-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D52B90C2E03B58D0057B25B /* Urbanist-LightItalic.ttf */; };
+		4D52B9252E03B58D0057B25B /* Urbanist-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D52B9092E03B58D0057B25B /* Urbanist-ExtraLightItalic.ttf */; };
+		4D52B9262E03B58D0057B25B /* Urbanist-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4D52B9122E03B58D0057B25B /* Urbanist-Thin.ttf */; };
+		4D52B9632E03C8DD0057B25B /* StretchyCollectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D52B9622E03C8DD0057B25B /* StretchyCollectionHeaderView.swift */; };
+		4D52B9672E03CC2A0057B25B /* ScrollViewWithStretchyHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D52B9662E03CC2A0057B25B /* ScrollViewWithStretchyHeaderView.swift */; };
 		4DCEA83E2E02A34300F411DF /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCEA83C2E02A34300F411DF /* HomeViewController.xib */; };
 		4DCEA83F2E02A34300F411DF /* ExploreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCEA8392E02A34300F411DF /* ExploreViewController.xib */; };
 		4DCEA8402E02A34300F411DF /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCEA8332E02A34300F411DF /* ProfileViewController.xib */; };
@@ -83,6 +105,27 @@
 		4D3203BB2E02BD4500C8ABED /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		4D3203BD2E02BD7700C8ABED /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		4D3203BF2E02BE2000C8ABED /* BaseHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseHeaderView.swift; sourceTree = "<group>"; };
+		4D52B9002E03B51C0057B25B /* ThemeConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeConfig.swift; sourceTree = "<group>"; };
+		4D52B9022E03B58D0057B25B /* Urbanist-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Black.ttf"; sourceTree = "<group>"; };
+		4D52B9032E03B58D0057B25B /* Urbanist-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-BlackItalic.ttf"; sourceTree = "<group>"; };
+		4D52B9042E03B58D0057B25B /* Urbanist-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Bold.ttf"; sourceTree = "<group>"; };
+		4D52B9052E03B58D0057B25B /* Urbanist-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-BoldItalic.ttf"; sourceTree = "<group>"; };
+		4D52B9062E03B58D0057B25B /* Urbanist-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-ExtraBold.ttf"; sourceTree = "<group>"; };
+		4D52B9072E03B58D0057B25B /* Urbanist-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		4D52B9082E03B58D0057B25B /* Urbanist-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-ExtraLight.ttf"; sourceTree = "<group>"; };
+		4D52B9092E03B58D0057B25B /* Urbanist-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		4D52B90A2E03B58D0057B25B /* Urbanist-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Italic.ttf"; sourceTree = "<group>"; };
+		4D52B90B2E03B58D0057B25B /* Urbanist-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Light.ttf"; sourceTree = "<group>"; };
+		4D52B90C2E03B58D0057B25B /* Urbanist-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-LightItalic.ttf"; sourceTree = "<group>"; };
+		4D52B90D2E03B58D0057B25B /* Urbanist-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Medium.ttf"; sourceTree = "<group>"; };
+		4D52B90E2E03B58D0057B25B /* Urbanist-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-MediumItalic.ttf"; sourceTree = "<group>"; };
+		4D52B90F2E03B58D0057B25B /* Urbanist-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Regular.ttf"; sourceTree = "<group>"; };
+		4D52B9102E03B58D0057B25B /* Urbanist-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-SemiBold.ttf"; sourceTree = "<group>"; };
+		4D52B9112E03B58D0057B25B /* Urbanist-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		4D52B9122E03B58D0057B25B /* Urbanist-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Thin.ttf"; sourceTree = "<group>"; };
+		4D52B9132E03B58D0057B25B /* Urbanist-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-ThinItalic.ttf"; sourceTree = "<group>"; };
+		4D52B9622E03C8DD0057B25B /* StretchyCollectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyCollectionHeaderView.swift; sourceTree = "<group>"; };
+		4D52B9662E03CC2A0057B25B /* ScrollViewWithStretchyHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewWithStretchyHeaderView.swift; sourceTree = "<group>"; };
 		4DCEA8322E02A34300F411DF /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		4DCEA8332E02A34300F411DF /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
 		4DCEA8352E02A34300F411DF /* MyListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListViewController.swift; sourceTree = "<group>"; };
@@ -158,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCBBD1ADBCD485EAE690A624 /* Pods_mova_stream_ios.framework in Frameworks */,
+				4D52B8FF2E03A9A70057B25B /* ComponentsKit in Frameworks */,
 				4D3203CA2E02D2FF00C8ABED /* Nuke in Frameworks */,
 				4D3203D02E02D2FF00C8ABED /* NukeVideo in Frameworks */,
 				4D3203CC2E02D2FF00C8ABED /* NukeExtensions in Frameworks */,
@@ -175,6 +219,31 @@
 				EE7D61782BFB78794503FFC2 /* Pods-mova-stream-ios.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		4D52B9142E03B58D0057B25B /* Urbanist */ = {
+			isa = PBXGroup;
+			children = (
+				4D52B9022E03B58D0057B25B /* Urbanist-Black.ttf */,
+				4D52B9032E03B58D0057B25B /* Urbanist-BlackItalic.ttf */,
+				4D52B9042E03B58D0057B25B /* Urbanist-Bold.ttf */,
+				4D52B9052E03B58D0057B25B /* Urbanist-BoldItalic.ttf */,
+				4D52B9062E03B58D0057B25B /* Urbanist-ExtraBold.ttf */,
+				4D52B9072E03B58D0057B25B /* Urbanist-ExtraBoldItalic.ttf */,
+				4D52B9082E03B58D0057B25B /* Urbanist-ExtraLight.ttf */,
+				4D52B9092E03B58D0057B25B /* Urbanist-ExtraLightItalic.ttf */,
+				4D52B90A2E03B58D0057B25B /* Urbanist-Italic.ttf */,
+				4D52B90B2E03B58D0057B25B /* Urbanist-Light.ttf */,
+				4D52B90C2E03B58D0057B25B /* Urbanist-LightItalic.ttf */,
+				4D52B90D2E03B58D0057B25B /* Urbanist-Medium.ttf */,
+				4D52B90E2E03B58D0057B25B /* Urbanist-MediumItalic.ttf */,
+				4D52B90F2E03B58D0057B25B /* Urbanist-Regular.ttf */,
+				4D52B9102E03B58D0057B25B /* Urbanist-SemiBold.ttf */,
+				4D52B9112E03B58D0057B25B /* Urbanist-SemiBoldItalic.ttf */,
+				4D52B9122E03B58D0057B25B /* Urbanist-Thin.ttf */,
+				4D52B9132E03B58D0057B25B /* Urbanist-ThinItalic.ttf */,
+			);
+			path = Urbanist;
 			sourceTree = "<group>";
 		};
 		4DB1141C2E02A5CE0076C57D /* Supporting Files */ = {
@@ -247,6 +316,7 @@
 			isa = PBXGroup;
 			children = (
 				B204484529FA686700AF95FF /* Fonts */,
+				4D52B9002E03B51C0057B25B /* ThemeConfig.swift */,
 			);
 			path = Styles;
 			sourceTree = "<group>";
@@ -254,6 +324,7 @@
 		B204484529FA686700AF95FF /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				4D52B9142E03B58D0057B25B /* Urbanist */,
 				B204484629FA686700AF95FF /* Roboto */,
 			);
 			path = Fonts;
@@ -384,6 +455,8 @@
 				B2CA013529F9A4DD0072E11F /* ThumbMovieCollectionViewCell.swift */,
 				4D3203BB2E02BD4500C8ABED /* BaseViewController.swift */,
 				4D3203BD2E02BD7700C8ABED /* BaseView.swift */,
+				4D52B9622E03C8DD0057B25B /* StretchyCollectionHeaderView.swift */,
+				4D52B9662E03CC2A0057B25B /* ScrollViewWithStretchyHeaderView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -419,6 +492,7 @@
 				4D3203CB2E02D2FF00C8ABED /* NukeExtensions */,
 				4D3203CD2E02D2FF00C8ABED /* NukeUI */,
 				4D3203CF2E02D2FF00C8ABED /* NukeVideo */,
+				4D52B8FE2E03A9A70057B25B /* ComponentsKit */,
 			);
 			productName = MovaStream;
 			productReference = B2CBB63D29F9149400527AB5 /* mova-stream-ios.app */;
@@ -450,6 +524,7 @@
 			mainGroup = B2CBB63429F9149400527AB5;
 			packageReferences = (
 				4D3203C82E02D2FF00C8ABED /* XCRemoteSwiftPackageReference "Nuke" */,
+				4D52B8FD2E03A9A70057B25B /* XCRemoteSwiftPackageReference "ComponentsKit" */,
 			);
 			productRefGroup = B2CBB63E29F9149400527AB5 /* Products */;
 			projectDirPath = "";
@@ -468,6 +543,24 @@
 				B2CBB64D29F9149600527AB5 /* LaunchScreen.storyboard in Resources */,
 				B2CBB64A29F9149600527AB5 /* Assets.xcassets in Resources */,
 				B204485C29FA686700AF95FF /* Roboto-Bold.ttf in Resources */,
+				4D52B9152E03B58D0057B25B /* Urbanist-ExtraBold.ttf in Resources */,
+				4D52B9162E03B58D0057B25B /* Urbanist-ExtraLight.ttf in Resources */,
+				4D52B9172E03B58D0057B25B /* Urbanist-ThinItalic.ttf in Resources */,
+				4D52B9182E03B58D0057B25B /* Urbanist-Bold.ttf in Resources */,
+				4D52B9192E03B58D0057B25B /* Urbanist-SemiBold.ttf in Resources */,
+				4D52B91A2E03B58D0057B25B /* Urbanist-ExtraBoldItalic.ttf in Resources */,
+				4D52B91B2E03B58D0057B25B /* Urbanist-BoldItalic.ttf in Resources */,
+				4D52B91C2E03B58D0057B25B /* Urbanist-MediumItalic.ttf in Resources */,
+				4D52B91D2E03B58D0057B25B /* Urbanist-Medium.ttf in Resources */,
+				4D52B91E2E03B58D0057B25B /* Urbanist-Regular.ttf in Resources */,
+				4D52B91F2E03B58D0057B25B /* Urbanist-Black.ttf in Resources */,
+				4D52B9202E03B58D0057B25B /* Urbanist-Light.ttf in Resources */,
+				4D52B9212E03B58D0057B25B /* Urbanist-Italic.ttf in Resources */,
+				4D52B9222E03B58D0057B25B /* Urbanist-BlackItalic.ttf in Resources */,
+				4D52B9232E03B58D0057B25B /* Urbanist-SemiBoldItalic.ttf in Resources */,
+				4D52B9242E03B58D0057B25B /* Urbanist-LightItalic.ttf in Resources */,
+				4D52B9252E03B58D0057B25B /* Urbanist-ExtraLightItalic.ttf in Resources */,
+				4D52B9262E03B58D0057B25B /* Urbanist-Thin.ttf in Resources */,
 				B204485829FA686700AF95FF /* Roboto-BoldItalic.ttf in Resources */,
 				B204485529FA686700AF95FF /* Roboto-Regular.ttf in Resources */,
 				B204485729FA686700AF95FF /* Roboto-ThinItalic.ttf in Resources */,
@@ -541,6 +634,8 @@
 				B2CBB68029F918F000527AB5 /* Extension+UIImage.swift in Sources */,
 				B2CA013429F9A2F70072E11F /* StretchyTableHeaderView.swift in Sources */,
 				4D3203C02E02BE2000C8ABED /* BaseHeaderView.swift in Sources */,
+				4D52B9632E03C8DD0057B25B /* StretchyCollectionHeaderView.swift in Sources */,
+				4D52B9672E03CC2A0057B25B /* ScrollViewWithStretchyHeaderView.swift in Sources */,
 				B2CBB68729F918F000527AB5 /* Extension+String.swift in Sources */,
 				B2CBB64129F9149400527AB5 /* AppDelegate.swift in Sources */,
 				B2787DC32A024E7900AAD64B /* MoviesViewController.swift in Sources */,
@@ -556,6 +651,7 @@
 				B2CBB68B29F918F000527AB5 /* Extension+UIGestureRecognizer.swift in Sources */,
 				B2CBB68929F918F000527AB5 /* Extension+UIEdgeInsets.swift in Sources */,
 				B2787DC12A024E6100AAD64B /* AllCategoryViewController.swift in Sources */,
+				4D52B9012E03B51C0057B25B /* ThemeConfig.swift in Sources */,
 				B2CBB69029F918F000527AB5 /* Extension+UIButton.swift in Sources */,
 				B2CBB67F29F918F000527AB5 /* Extension+UIViewController.swift in Sources */,
 				B2CBB68129F918F000527AB5 /* Extension+CGPoint.swift in Sources */,
@@ -728,7 +824,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -757,7 +853,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -803,6 +899,14 @@
 				minimumVersion = 12.8.0;
 			};
 		};
+		4D52B8FD2E03A9A70057B25B /* XCRemoteSwiftPackageReference "ComponentsKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/componentskit/ComponentsKit";
+			requirement = {
+				kind = exactVersion;
+				version = 1.5.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -825,6 +929,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4D3203C82E02D2FF00C8ABED /* XCRemoteSwiftPackageReference "Nuke" */;
 			productName = NukeVideo;
+		};
+		4D52B8FE2E03A9A70057B25B /* ComponentsKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4D52B8FD2E03A9A70057B25B /* XCRemoteSwiftPackageReference "ComponentsKit" */;
+			productName = ComponentsKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
