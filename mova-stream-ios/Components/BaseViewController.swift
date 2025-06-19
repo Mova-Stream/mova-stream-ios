@@ -7,7 +7,7 @@
 
 import UIKit
 
-class BaseViewController: UIViewController {
+public class BaseViewController: UIViewController {
     // MARK: - Properties
     
     private var leftAction: (() -> Void)?
@@ -76,7 +76,7 @@ extension BaseViewController {
     
     // MARK: - Navigation Bar Control
     
-    func setNavigationTitle(_ title: String, color: UIColor = .label) {
+    public func setNavigationTitle(_ title: String, color: UIColor = .label) {
         let titleLabel = UILabel()
         titleLabel.text = title
         titleLabel.textColor = color
@@ -84,7 +84,7 @@ extension BaseViewController {
         navigationItem.titleView = titleLabel
     }
     
-    func setLeftBarItem(icon: UIImage?, action: (() -> Void)? = nil) {
+    public func setLeftBarItem(icon: UIImage?, action: (() -> Void)? = nil) {
         let button = UIButton(type: .system)
         button.setImage(icon, for: .normal)
         button.tintColor = .label
@@ -95,7 +95,7 @@ extension BaseViewController {
         navigationItem.leftBarButtonItem = UIBarButtonItem(customView: button)
     }
     
-    func setLeftBarItem(title: String, action: (() -> Void)? = nil) {
+    public func setLeftBarItem(title: String, action: (() -> Void)? = nil) {
         let button = UIButton(type: .system)
         button.setTitle(title, for: .normal)
         button.tintColor = .label
@@ -106,11 +106,11 @@ extension BaseViewController {
         navigationItem.leftBarButtonItem = UIBarButtonItem(customView: button)
     }
     
-    func setLeftBarItem(view: UIView) {
+    public func setLeftBarItem(view: UIView) {
         navigationItem.leftBarButtonItem = UIBarButtonItem(customView: view)
     }
     
-    func setRightBarItem(icon: UIImage?, action: (() -> Void)? = nil) {
+    public func setRightBarItem(icon: UIImage?, action: (() -> Void)? = nil) {
         let button = UIButton(type: .system)
         button.setImage(icon, for: .normal)
         button.tintColor = .label
@@ -121,7 +121,7 @@ extension BaseViewController {
         navigationItem.rightBarButtonItem = UIBarButtonItem(customView: button)
     }
     
-    func setRightBarItem(title: String, action: (() -> Void)? = nil) {
+    public func setRightBarItem(title: String, action: (() -> Void)? = nil) {
         let button = UIButton(type: .system)
         button.setTitle(title, for: .normal)
         button.tintColor = .label
@@ -132,21 +132,137 @@ extension BaseViewController {
         navigationItem.rightBarButtonItem = UIBarButtonItem(customView: button)
     }
     
-    func setRightBarItem(view: UIView) {
+    public func setRightBarItem(view: UIView) {
         navigationItem.rightBarButtonItem = UIBarButtonItem(customView: view)
     }
     
-    func hideNavigationBar(animated: Bool = true) {
+    public func hideNavigationBar(animated: Bool = true) {
         navigationController?.setNavigationBarHidden(true, animated: animated)
     }
     
-    func showNavigationBar(animated: Bool = true) {
+    public func showNavigationBar(animated: Bool = true) {
         navigationController?.setNavigationBarHidden(false, animated: animated)
+    }
+    
+    // Sets the navigation bar to be transparent and hides the shadow
+    /**
+        Using example:
+        ```swift
+         override func viewWillAppear(_ animated: Bool) {
+            super.viewWillAppear(animated)
+            self.setNavigationBarBackgroundColor()
+         }
+        ```
+     */
+    public func setNavigationBarBackgroundColorWhenScroll(_ color: UIColor) {
+        let appearance = UINavigationBarAppearance()
+        appearance.configureWithOpaqueBackground()
+        appearance.backgroundColor = color
+        appearance.titleTextAttributes = [.foregroundColor: UIColor.label]
+
+        navigationController?.navigationBar.standardAppearance = appearance
+    }
+    
+    // Sets the navigation bar to be transparent and hides the shadow
+    /**
+        Using example:
+        ```swift
+         override func viewWillAppear(_ animated: Bool) {
+            super.viewWillAppear(animated)
+            self.setNavigationBarBackgroundImageWhenScroll()
+         }
+        ```
+     */
+    public func setNavigationBarBackgroundImageWhenScroll(_ image: UIImage) {
+        let appearance = UINavigationBarAppearance()
+        appearance.configureWithOpaqueBackground()
+        appearance.backgroundImage = image
+        appearance.titleTextAttributes = [.foregroundColor: UIColor.label]
+
+        navigationController?.navigationBar.standardAppearance = appearance
+    }
+    
+    // Sets the navigation bar to be transparent and hides the shadow
+    /**
+        Using example:
+        ```swift
+         override func viewWillAppear(_ animated: Bool) {
+            super.viewWillAppear(animated)
+            self.setNavigationBarBackgroundBlurWhenScroll()
+         }
+        ```
+     */
+    public func setNavigationBarBackgroundBlurWhenScroll(_ blurEffect: UIBlurEffect) {
+        let appearance = UINavigationBarAppearance()
+        appearance.configureWithTransparentBackground()
+        appearance.backgroundColor = .clear
+        appearance.backgroundEffect = blurEffect
+        appearance.titleTextAttributes = [.foregroundColor: UIColor.label]
+        
+        navigationController?.navigationBar.standardAppearance = appearance
+    }
+    
+    // Sets the navigation bar to be transparent and hides the shadow
+    /**
+        Using example:
+        ```swift
+         override func viewWillAppear(_ animated: Bool) {
+            super.viewWillAppear(animated)
+            self.setNavigationBarBackgroundColor()
+         }
+        ```
+     */
+    public func setNavigationBarBackgroundColor(_ color: UIColor) {
+        let appearance = UINavigationBarAppearance()
+        appearance.configureWithOpaqueBackground()
+        appearance.backgroundColor = color
+        appearance.titleTextAttributes = [.foregroundColor: UIColor.label]
+
+        navigationController?.navigationBar.scrollEdgeAppearance = appearance
+    }
+    
+    // Sets the navigation bar to be transparent and hides the shadow
+    /**
+        Using example:
+        ```swift
+         override func viewWillAppear(_ animated: Bool) {
+            super.viewWillAppear(animated)
+            self.setNavigationBarBackgroundImage()
+         }
+        ```
+     */
+    public func setNavigationBarBackgroundImage(_ image: UIImage) {
+        let appearance = UINavigationBarAppearance()
+        appearance.configureWithOpaqueBackground()
+        appearance.backgroundImage = image
+        appearance.titleTextAttributes = [.foregroundColor: UIColor.label]
+
+        navigationController?.navigationBar.scrollEdgeAppearance = appearance
+    }
+    
+    
+    // Sets the navigation bar to be transparent and hides the shadow
+    /**
+        Using example:
+        ```swift
+         override func viewWillAppear(_ animated: Bool) {
+            super.viewWillAppear(animated)
+            self.setNavigationBarBackgroundBlur()
+         }
+        ```
+     */
+    public func setNavigationBarBackgroundBlur(_ blueEffect: UIBlurEffect) {
+        let appearance = UINavigationBarAppearance()
+        appearance.configureWithOpaqueBackground()
+        appearance.backgroundEffect = blueEffect
+        appearance.titleTextAttributes = [.foregroundColor: UIColor.label]
+
+        navigationController?.navigationBar.scrollEdgeAppearance = appearance
     }
     
     // MARK: - Convenience
     
-    func addDismissKeyboardGesture() {
+    public func addDismissKeyboardGesture() {
         let tap = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))
         view.addGestureRecognizer(tap)
     }
