@@ -9,9 +9,9 @@ def pods
   pod 'CRRefresh', '1.1.3'
   pod 'DatePickerDialog', '4.0'
   # pod 'DropDown', '2.3.2'
-  pod 'Alamofire', '4.8.1'
   pod 'PagingCollectionViewLayout', '0.0.4'
   pod 'SVGKit', '3.0.0'
+  pod 'Alamofire', '5.10.2'
   # pod 'ImageLoader', '~> 0.6.0'
 end
 
