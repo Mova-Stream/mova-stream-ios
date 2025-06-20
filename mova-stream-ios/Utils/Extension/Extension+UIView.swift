@@ -52,64 +52,80 @@ extension UIView {
 
 extension UIView {
     
-    func centerX(superview view: UIView) {
-        self.translatesAutoresizingMaskIntoConstraints = false
-        self.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-    }
-    
-    func centerY(superview view: UIView) {
-        self.translatesAutoresizingMaskIntoConstraints = false
-        self.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
-    }
-    
-    func centerAll(superview view: UIView) {
-        self.translatesAutoresizingMaskIntoConstraints = false
-        self.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        self.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
-    }
-    
-    func anchor(
-        top: NSLayoutYAxisAnchor? = nil,
-        leading: NSLayoutXAxisAnchor? = nil,
-        bottom: NSLayoutYAxisAnchor? = nil,
-        trailing: NSLayoutXAxisAnchor? = nil,
-        constant: UIEdgeInsets? = .zero)
-    {
-        self.translatesAutoresizingMaskIntoConstraints = false
-        let constantVal = constant != .zero ? constant! : .zero
-        
-        if let top = top {
-            self.topAnchor.constraint(equalTo: top, constant: constantVal.top).isActive = true
+    @IBInspectable var cornerRadiusV: CGFloat {
+        get {
+            return layer.cornerRadius
         }
-        
-        if let leading = leading {
-            self.leadingAnchor.constraint(equalTo: leading, constant: constantVal.left).isActive = true
-        }
-        
-        if let bottom = bottom {
-            self.bottomAnchor.constraint(equalTo: bottom, constant: constantVal.bottom).isActive = true
-        }
-        
-        if let trailing = trailing {
-            self.trailingAnchor.constraint(equalTo: trailing, constant: constantVal.right).isActive = true
-        }
-        
-        
-    }
-    
-    func dimension(width: CGFloat? = 0, height: CGFloat? = 0) {
-        self.translatesAutoresizingMaskIntoConstraints = false
-        if let _width = width {
-            self.widthAnchor.constraint(equalToConstant: _width).isActive = true
-        }
-        if let _height = height {
-            self.heightAnchor.constraint(equalToConstant: _height).isActive = true
+        set {
+            layer.cornerRadius = newValue
+            layer.masksToBounds = newValue > 0
         }
     }
     
-    func fillSuperview(superview view: UIView, constant: UIEdgeInsets? = .zero) {
-        self.translatesAutoresizingMaskIntoConstraints = false
-        self.anchor(top: view.topAnchor, leading: view.leadingAnchor, bottom: view.bottomAnchor, trailing: view.trailingAnchor, constant: constant)
+    @IBInspectable var borderWidthV: CGFloat {
+        get {
+            return layer.borderWidth
+        }
+        set {
+            layer.borderWidth = newValue
+        }
+    }
+    
+    @IBInspectable var borderColorV: UIColor? {
+        get {
+            return UIColor(cgColor: layer.borderColor!)
+        }
+        set {
+            layer.borderColor = newValue?.cgColor
+        }
+    }
+    
+    @IBInspectable var cardStyleWithOffSet: CGFloat {
+        get {
+            return layer.cornerRadius
+        }
+        set {
+            layer.cornerRadius = 5.0
+            layer.borderColor  =  UIColor.clear.cgColor
+            layer.borderWidth = 5.0
+            layer.shadowOpacity = 0.5
+            layer.shadowColor =  UIColor.lightGray.cgColor
+            layer.shadowRadius = 5.0
+            layer.shadowOffset = CGSize(width: newValue, height: cardStyleWithOffSet)
+            layer.masksToBounds = true
+        }
+    }
+    
+    @IBInspectable var lineGradients: Bool {
+        get {
+            return true
+        }
+        set {
+            setNeedsLayout()
+            let gradient = CAGradientLayer()
+            gradient.frame = self.bounds
+            gradient.startPoint = CGPoint(x:0.0, y:0.5)
+            gradient.endPoint = CGPoint(x:1.0, y:0.5)
+            gradient.colors = [UIColor.white.cgColor.copy(alpha: 0)!, UIColor.white.cgColor, UIColor.white.cgColor,  UIColor.white.cgColor.copy(alpha: 0)!]
+            gradient.locations = [0.0, 0.4, 0.6, 1.0]
+            self.layer.insertSublayer(gradient, at: 0)
+        }
+    }
+    
+    func gradients(colors: [UIColor]) {
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.colors = colors
+        gradientLayer.locations = [0.0, 1.0]
+        gradientLayer.frame = bounds
+        layer.insertSublayer(gradientLayer, at:0)
+    }
+    
+    func setGradients(colors: [UIColor]) {
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.colors = colors
+        gradientLayer.locations = [0.0, 1.0]
+        gradientLayer.frame = bounds
+        layer.insertSublayer(gradientLayer, at:0)
     }
     
 }

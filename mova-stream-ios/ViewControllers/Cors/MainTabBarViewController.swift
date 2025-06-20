@@ -22,9 +22,6 @@ class MainTabBarViewController: UITabBarController {
         self.delegate = self
         self.setupView()
         self.configureTabBarAppearance()
-        self.insertBlurViewIfNeeded()
-        self.adjustTabBarSpacing()
-        self.tabBar.clipsToBounds = true // ✅ đảm bảo không tràn layout
     }
     
     override func viewDidLayoutSubviews() {
@@ -72,20 +69,13 @@ class MainTabBarViewController: UITabBarController {
         appearance.backgroundEffect = nil // ✅ Tránh conflict với blurView
         appearance.backgroundColor = .clear
         
+        self.tabBar.clipsToBounds = true // ✅ đảm bảo không tràn layout
         self.tabBar.standardAppearance = appearance
         if #available(iOS 15.0, *) {
             self.tabBar.scrollEdgeAppearance = appearance
         }
-    }
-    
-    private func insertBlurViewIfNeeded() {
-        // ✅ Chỉ thêm nếu chưa tồn tại
-        guard blurView.superview == nil else { return }
         self.tabBar.insertSubview(blurView, at: 0)
-    }
-    
-    private func adjustTabBarSpacing() {
-        tabBar.items?.forEach {
+        self.tabBar.items?.forEach {
             $0.imageInsets = UIEdgeInsets(top: -1, left: 0, bottom: 1, right: 0)
             $0.titlePositionAdjustment = UIOffset(horizontal: 0, vertical: 1)
         }

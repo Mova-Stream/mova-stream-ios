@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D23327C2E0543E900C08D4D /* SectionTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D23327B2E0543E900C08D4D /* SectionTitleLabel.swift */; };
+		4D23327E2E05452C00C08D4D /* SectionSubTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D23327D2E05452C00C08D4D /* SectionSubTitleLabel.swift */; };
+		4D2332802E05467C00C08D4D /* SectionSubTitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D23327F2E05467C00C08D4D /* SectionSubTitleButton.swift */; };
+		4D2332CC2E055C9100C08D4D /* CardPreviewMovieCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D2332CB2E055C9100C08D4D /* CardPreviewMovieCollectionViewCell.xib */; };
+		4D2332CD2E055C9100C08D4D /* CardPreviewMovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2332CA2E055C9100C08D4D /* CardPreviewMovieCollectionViewCell.swift */; };
 		4D3203BC2E02BD4500C8ABED /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3203BB2E02BD4500C8ABED /* BaseViewController.swift */; };
 		4D3203BE2E02BD7700C8ABED /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3203BD2E02BD7700C8ABED /* BaseView.swift */; };
 		4D3203C02E02BE2000C8ABED /* BaseHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3203BF2E02BE2000C8ABED /* BaseHeaderView.swift */; };
@@ -102,6 +107,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D23327B2E0543E900C08D4D /* SectionTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTitleLabel.swift; sourceTree = "<group>"; };
+		4D23327D2E05452C00C08D4D /* SectionSubTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionSubTitleLabel.swift; sourceTree = "<group>"; };
+		4D23327F2E05467C00C08D4D /* SectionSubTitleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionSubTitleButton.swift; sourceTree = "<group>"; };
+		4D2332CA2E055C9100C08D4D /* CardPreviewMovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPreviewMovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		4D2332CB2E055C9100C08D4D /* CardPreviewMovieCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardPreviewMovieCollectionViewCell.xib; sourceTree = "<group>"; };
 		4D3203BB2E02BD4500C8ABED /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		4D3203BD2E02BD7700C8ABED /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		4D3203BF2E02BE2000C8ABED /* BaseHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseHeaderView.swift; sourceTree = "<group>"; };
@@ -221,6 +231,15 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		4D2332C92E055ADF00C08D4D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4D2332CA2E055C9100C08D4D /* CardPreviewMovieCollectionViewCell.swift */,
+				4D2332CB2E055C9100C08D4D /* CardPreviewMovieCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		4D52B9142E03B58D0057B25B /* Urbanist */ = {
 			isa = PBXGroup;
 			children = (
@@ -298,6 +317,7 @@
 		4DCEA83D2E02A34300F411DF /* HomeVC */ = {
 			isa = PBXGroup;
 			children = (
+				4D2332C92E055ADF00C08D4D /* Cell */,
 				4DCEA83B2E02A34300F411DF /* HomeViewController.swift */,
 				4DCEA83C2E02A34300F411DF /* HomeViewController.xib */,
 			);
@@ -457,6 +477,9 @@
 				4D3203BD2E02BD7700C8ABED /* BaseView.swift */,
 				4D52B9622E03C8DD0057B25B /* StretchyCollectionHeaderView.swift */,
 				4D52B9662E03CC2A0057B25B /* ScrollViewWithStretchyHeaderView.swift */,
+				4D23327B2E0543E900C08D4D /* SectionTitleLabel.swift */,
+				4D23327D2E05452C00C08D4D /* SectionSubTitleLabel.swift */,
+				4D23327F2E05467C00C08D4D /* SectionSubTitleButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -561,6 +584,7 @@
 				4D52B9242E03B58D0057B25B /* Urbanist-LightItalic.ttf in Resources */,
 				4D52B9252E03B58D0057B25B /* Urbanist-ExtraLightItalic.ttf in Resources */,
 				4D52B9262E03B58D0057B25B /* Urbanist-Thin.ttf in Resources */,
+				4D2332CC2E055C9100C08D4D /* CardPreviewMovieCollectionViewCell.xib in Resources */,
 				B204485829FA686700AF95FF /* Roboto-BoldItalic.ttf in Resources */,
 				B204485529FA686700AF95FF /* Roboto-Regular.ttf in Resources */,
 				B204485729FA686700AF95FF /* Roboto-ThinItalic.ttf in Resources */,
@@ -634,6 +658,7 @@
 				B2CBB68029F918F000527AB5 /* Extension+UIImage.swift in Sources */,
 				B2CA013429F9A2F70072E11F /* StretchyTableHeaderView.swift in Sources */,
 				4D3203C02E02BE2000C8ABED /* BaseHeaderView.swift in Sources */,
+				4D2332CD2E055C9100C08D4D /* CardPreviewMovieCollectionViewCell.swift in Sources */,
 				4D52B9632E03C8DD0057B25B /* StretchyCollectionHeaderView.swift in Sources */,
 				4D52B9672E03CC2A0057B25B /* ScrollViewWithStretchyHeaderView.swift in Sources */,
 				B2CBB68729F918F000527AB5 /* Extension+String.swift in Sources */,
@@ -645,6 +670,7 @@
 				B2CBB69529F918F000527AB5 /* Extension+Date.swift in Sources */,
 				4D3203BC2E02BD4500C8ABED /* BaseViewController.swift in Sources */,
 				B2CBB68229F918F000527AB5 /* Extension+Codable.swift in Sources */,
+				4D23327C2E0543E900C08D4D /* SectionTitleLabel.swift in Sources */,
 				B2CA013D29F9B2640072E11F /* Extension+UIApplication.swift in Sources */,
 				B2CBB65C29F9164A00527AB5 /* MainTabBarViewController.swift in Sources */,
 				B2CA011829F97D980072E11F /* PreviewUI.swift in Sources */,
@@ -661,6 +687,7 @@
 				B2CBB69129F918F000527AB5 /* Extension+NSCoding.swift in Sources */,
 				4DCEA8422E02A34300F411DF /* MyListViewController.swift in Sources */,
 				4DCEA8432E02A34300F411DF /* HomeViewController.swift in Sources */,
+				4D23327E2E05452C00C08D4D /* SectionSubTitleLabel.swift in Sources */,
 				4DCEA8442E02A34300F411DF /* ProfileViewController.swift in Sources */,
 				4DCEA8452E02A34300F411DF /* ExploreViewController.swift in Sources */,
 				B2CBB69229F918F000527AB5 /* Extension+Data.swift in Sources */,
@@ -668,6 +695,7 @@
 				B2787DC72A024EC000AAD64B /* CinemasViewController.swift in Sources */,
 				B2CBB68C29F918F000527AB5 /* Extension+Float.swift in Sources */,
 				B2787DC52A024E8800AAD64B /* TVSeriesViewController.swift in Sources */,
+				4D2332802E05467C00C08D4D /* SectionSubTitleButton.swift in Sources */,
 				B2CBB68F29F918F000527AB5 /* Extension+CGSize.swift in Sources */,
 				B2CBB67B29F918F000527AB5 /* Extension+Double.swift in Sources */,
 				B2CBB68A29F918F000527AB5 /* Extension+UILabel.swift in Sources */,
